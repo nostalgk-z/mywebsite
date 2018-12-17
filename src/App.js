@@ -7,7 +7,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <p>
-           ZANE PARTAIN
+           ZANE PARTAIN!!
           </p>
         </header>
       </div>

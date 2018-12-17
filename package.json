@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "homepage": "https://zanepartain.com",
+  "homepage": "https://zanepartain.github.io/mywebsite",
   "private": true,
   "dependencies": {
     "react": "^16.6.3",
