@@ -1,0 +1,149 @@
+.Navigation{
+    float: left;
+    width: 300px;
+
+    position: fixed;
+}
+.NavGroup{
+    display: block;
+    border: 2px solid transparent;
+    height: 40px;
+    width: 100%;
+    color: gainsboro;
+    border-radius: 20px;
+    
+}
+
+.NavWrapper{
+    width: 100%;
+    height: fill;
+    clip-path: circle(10px at 12px 18px);
+    transition: 300ms;
+    transition-delay: 200ms;
+    transition-timing-function: smooth;
+    background-color: lightsteelblue;
+    border-radius: 20px;
+    
+}
+.NavWrapper:hover{
+    clip-path: circle(900px at 50px 18px);  
+    border-radius: 20px;
+    background-color: transparent;
+    transition: 700ms;
+    transition-timing-function: ease-in;
+   
+   
+}
+.Nav-parent{
+    padding-top:5px;
+    width:inherit;
+    height: 36px;
+}
+
+.circle{
+    z-index: 0;
+    width: 24px;
+    height: 34px;
+    float:left;
+    clip-path: circle(12px at 12px 18px);  
+    transition: 300ms;
+    transition-delay: 100ms;
+    transition-timing-function: smooth;
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    
+}
+
+
+.Nav-parent:hover .NavItem1{
+    margin-top: 3.5px;
+    float: left;
+    font-size: 10pt;
+    margin-left: 50px;
+    opacity: 1;
+    transition: all 300ms linear;
+    transition-delay: 100ms;
+
+}
+.Nav-parent:hover .NavItem2{
+    margin-top: 3.5px;
+    float: left;
+    font-size: 10pt;
+    margin-left: 20px;
+    opacity: 1;
+    transition: all 200ms linear;
+    transition-delay: 50ms;
+
+}
+.Nav-parent:hover .NavItem3{
+    margin-top: 3.5px;
+    float: left;
+    font-size: 10pt;
+    margin-left: 20px;
+    opacity: 1;
+    transition: all 150ms linear;
+    transition-delay: 25ms;
+
+}
+.NavItem1{
+    float: left;
+    width: fit-content;
+    opacity: 1;
+    height: fit-content;
+    margin-top: 10px;
+    font-size: 1pt;
+    transition: all 100ms linear;
+    transition-delay: 200ms;
+}
+.NavItem2{
+    float: left;
+    width: fit-content;
+    opacity: 1;
+    height: fit-content;
+    margin-top: 10px;
+
+    font-size: 1pt;
+    transition: all 100ms linear;
+    transition-delay: 250ms;
+}
+.NavItem3{
+    float: left;
+    width: fit-content;
+    opacity: 1;
+    height: fit-content;
+    margin-top: 10px;
+   
+    font-size: 1pt;
+    transition: all 100ms linear;
+    transition-delay: 300ms;
+}
+
+@keyframes slidein {
+    from {
+      opacity: 0.1;
+      margin-left: 0%;
+      width: 100%; 
+    }
+  
+    to {
+      opacity: 1;
+      margin-left: 20%;
+      width: 100%;
+    }
+  }
+
+@keyframes bounceout {
+    0% {
+        transform:translateY(-100%);
+        opacity: 0;
+    }
+    5% {
+        transform:translateY(-100%);
+        opacity: 0;
+    }
+    15% {
+        transform:translateY(0);
+        padding-bottom: 5px;
+      }
+      
+}
