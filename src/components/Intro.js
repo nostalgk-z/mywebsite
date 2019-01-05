@@ -1,8 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Plx from 'react-plx';
 import './Intro.css';
 
-
+/**
+ * The parallaxData _transformation's below will take place over a specified
+ * _transition time/effect, and scroll position.
+ */
 const parallaxData = [
     {
       start: 0,
@@ -32,32 +35,31 @@ const parallaxData2 = [
     ];
 
 
-const Intro = () =>{
+const Intro = (props) =>{
             
         return(
             <div className="Intro">
-                 
+                {/**background ring*/}
                 <Plx
-                className='MyAwesomeParallax'
                     parallaxData={parallaxData}
-            
                 >
-                    <div className="myBanner-box">
-                    </div>
+                    <div className="myBanner-box"></div>
                 </Plx>
+                {/**Middle ground ring*/}
                 <Plx
                      parallaxData={parallaxData2}
                 >
                     <div className="banner-mbox"></div>
                 </Plx>
+                {/**Foreground ring*/}
                 <Plx   
                     parallaxData={parallaxData}
                 >
                     <div className="banner-fbox"></div>
                 </Plx>
+                {/**scroll text/icon helper*/}
                 <div className="scroll-text">
-                    scroll
-                    <div className="scroll-icon"> </div>
+                    scroll  <div className="scroll-icon"> </div>
                 </div>
             </div>
         );

@@ -1,0 +1,124 @@
+.Projects-container{
+    width: 100%;
+    height: 600px;
+    background-color:  rgb(221, 194, 194);
+    position: absolute;
+}
+
+.Projects{
+    position: absolute;
+}
+.title-parent{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.title-container{
+    display: inline-block;
+    font-size: 60pt;
+    margin-right: 12px;
+    margin-bottom: 15px;
+}
+.t{
+    display: inline-block;
+}
+.pro{
+    display: block;
+    margin: auto;
+    width: 250px;
+    left: 20%;
+    top: 18%;
+    position: absolute;
+}
+
+/************************************/
+.P-enter{
+    transform: translateY(-50px);
+    color:black;
+}
+.P-enter-done{
+    transform: translateY(0px);
+    transition: all 300ms ease-in;
+    position: relative;
+    color:black;
+}
+.R-enter{
+    transform: translateY(50px);
+    color:black;
+}
+.R-enter-done{
+    transform: translateY(0px);
+    transition: all 300ms ease-in;
+    position: relative;
+    color:black;
+}
+/************************************/
+.content-container{
+    width: 100%;
+    height: 450px;
+}
+.content-enter{
+    opacity: 0;
+}
+.content-enter-done{
+    opacity: 1;
+    transition: opacity 250ms linear;
+}
+
+.project-card{
+    width: 250px;
+    height: 115px;
+    border: 1px solid white;
+    border-radius: 2px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.row{
+    display: block;
+    text-align: center;
+}
+
+.col{
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid red;
+    height: 200px;
+    width: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    border-radius: 2px;
+    text-align: left;
+    padding: 10px;
+    font-size: 12pt;
+}
+.col:hover{
+    border: 1px solid black;
+}
+
+.my-hr{
+    width: 500px;
+    height: 1px;
+    background-color: black;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.description{
+    display: block;
+    margin: auto;
+    margin-top: 1%;
+    width: 98%;
+    height: 75%;
+    background-color: lightblue;
+    font-size: 12pt;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+a{
+    color: rgb(61, 61, 224);
+    font-size: 14pt;
+    font-weight: 600;
+}
