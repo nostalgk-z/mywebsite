@@ -7,7 +7,7 @@ import Waypoint from 'react-waypoint';
 
 const parallaxData = [
     {
-      start: 1000,
+      start: 1100,
       end: 2000,
       properties: [
             {
@@ -29,7 +29,6 @@ class Projects extends Component{
         super(props);
         this.state={
             isShowTitle: false,
-            isShowContent: false,
         };
     }
 
@@ -43,98 +42,110 @@ class Projects extends Component{
     }
 
     render(){
-        const { isShowTitle, isShowContent } = this.state;
+        const { isShowTitle }  = this.state;
 
         return(
-            <div className="Projects-container">
-                <Waypoint
-                    onEnter={this._showTitle.bind(this)}
-                    bottomOffset='70%'
-                >
-                    <div className="title-parent"> 
-                        <Plx
-                            parallaxData={parallaxData}
-                        >
-                            <CSSTransition className="title-container p"
-                                in={isShowTitle}
-                                timeout={0}
-                                classNames="P"
-                                unmountOnExit
-                            >
-                                <h1 className="Name">
-                                    P R O J
-                              
-                                </h1>
-                            </CSSTransition>
-                            <CSSTransition className="title-container r"
-                                in={isShowTitle}
-                                timeout={0}
-                                classNames="R"
-                                unmountOnExit
-                            >
-                                <h1 className="Name">
-                                    E C T S
-                                  
-                                </h1>
-                            </CSSTransition>
-                        </Plx>
-                    </div>
-                </Waypoint>
-                
-                <Waypoint className="projects-parent"
-                    onEnter={this._showContent.bind(this)}
-                    bottomOffset='75%'
-                >
-                    <div >
-                       
-                        <CSSTransition className="content-container"
-                            in={isShowContent}
-                            timeout={0}
-                            classNames="content"
-                            unmountOnExit
-                        >
-                            <div>
-                                
-                                <div className="my-hr">
-                                </div>
 
-                                <Container className="project-container">
-                                    <Row>
-                                        <Col>
-                                            <a href="#">Smile</a>
-                                            <div className="description">
-                                            Smile was a project I made for a course at WSU that focused on full-stack development. 
-                                            The professor for this course gave the students a bare-minumum guide 
-                                            to follow as well as some starter code. M…
-                                            </div>
-                                        </Col>
-                                        <Col>
-                                            <a href="#">Smile</a>
-                                            <div className="description">
-                                            Smile was a project I made for a course at WSU that focused on full-stack development. 
-                                            The professor for this course gave the students a bare-minumum guide 
-                                            to follow as well as some starter code. M…
-                                            </div>
-                                        </Col>
-                                        <Col>
-                                            <a href="#">Smile</a>
-                                            <div className="description">
-                                            Smile was a project I made for a course at WSU that focused on full-stack development. 
-                                            The professor for this course gave the students a bare-minumum guide 
-                                            to follow as well as some starter code. M…
-                                            </div>
-                                        </Col>
+                <div className="Projects-container">
+                    <div className="top-offset">
+                        <div className="triangle">
+                        </div>
+                    </div>
+
+                    <Waypoint
+                        onEnter={this._showTitle.bind(this)}
+                        bottomOffset='70%'
+                    >
+                        <div className="title-parent"> 
+                            <Plx
+                                parallaxData={parallaxData}
+                            >
+                                <CSSTransition className="title-container p"
+                                    in={isShowTitle}
+                                    timeout={0}
+                                    classNames="P"
+                                    unmountOnExit
+                                >
+                                    <h1 className="Name">
+                                        P R O J
+                                    
+                                    </h1>
+                                </CSSTransition>
+                                <CSSTransition className="title-container r"
+                                    in={isShowTitle}
+                                    timeout={0}
+                                    classNames="R"
+                                    unmountOnExit
+                                >
+                                    <h1 className="Name">
+                                        E C T S
                                         
-                                    </Row>
-                                </Container>
-                            </div>
-                        </CSSTransition>
-                    </div>
-                </Waypoint>
+                                    </h1>
+                                </CSSTransition>
+                            </Plx>
+                            <CSSTransition className="content-container"
+                                in={isShowTitle}
+                                timeout={0}
+                                classNames="content"
+                                unmountOnExit
+                            >
+                                <div>
+                                    
+                                    
+                                    <div>
+                                        Here are a few of my favorite projects!
+                                    </div>
 
-
-              
-            </div>
+                                    <Container className="project-container">
+                                        <Row>
+                                            <Col>
+                                                <a href="#">Kickr</a>
+                                                <div className="description">
+                                                Kickr is an intramural soccer league managing web application. This is a group project 
+                                                consisting of 4 team members including myself. I was responsible for 
+                                                the frontend development along with a col…
+                                                </div>
+                                                <div className="dot-parent">
+                                                    <div className="dot react"></div>
+                                                    <div className="dot-text">
+                                                        React
+                                                    </div>
+                                                </div>
+                                            </Col>
+                                            <Col>
+                                                <a href="#">Postscript interpreter</a>
+                                                <div className="description">
+                                                Smile was a project I made for a course at WSU that focused on full-stack development. 
+                                                The professor for this course gave the students a bare-minumum guide 
+                                                to follow as well as some starter code. M…
+                                                </div>
+                                                <div className="dot python">
+                                                </div>
+                                                <div className="dot-text">
+                                                    Python
+                                                </div>
+                                            </Col>
+                                            
+                                            <Col>
+                                                <a href="#">Smile</a>
+                                                <div className="description">
+                                                Smile was a project I made for a course at WSU that focused on full-stack development. 
+                                                The professor for this course gave the students a bare-minumum guide 
+                                                to follow as well as some starter code. M…
+                                                </div>
+                                                <div className="dot java">
+                                                </div>
+                                                <div className="dot-text">
+                                                    Javascript
+                                                </div>
+                                            </Col>
+                                        </Row>
+                                    </Container>
+                                </div>
+                            </CSSTransition>
+                        </div>
+                    </Waypoint>
+                </div>
         );
     }
 }

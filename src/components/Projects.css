@@ -1,8 +1,24 @@
+.top-offset{
+    width: 100%;
+    height:20px;
+    background-color: rgb(243, 240, 240);
+    display: inline-block;
+}
+.triangle{
+    width: 100%;
+    height: 10px;
+   
+    background-color:rgb(221, 194, 194);
+    display: inline-block;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+/**************************************/
 .Projects-container{
     width: 100%;
-    height: 600px;
-    background-color:  rgb(221, 194, 194);
-    position: absolute;
+    height: 800px;
+    background-image: linear-gradient(top, rgb(221, 194, 194) , rgb(221, 194, 194) , rgb(250, 186, 114));
+    position: relative;
+    clip-path: polygon(51% 100%, 100% 83%, 100% 0, 0 -20%, 0 83%);
 }
 
 .Projects{
@@ -12,12 +28,14 @@
     display: block;
     width: 100%;
     text-align: center;
+    position: absolute;
 }
 .title-container{
     display: inline-block;
     font-size: 60pt;
     margin-right: 12px;
     margin-bottom: 15px;
+
 }
 .t{
     display: inline-block;
@@ -63,6 +81,7 @@
 .content-enter-done{
     opacity: 1;
     transition: opacity 250ms linear;
+    transition-delay: 250ms;
 }
 
 .project-card{
@@ -82,12 +101,13 @@
 .col{
     display: inline-block;
     margin: 5px;
-    border: 1px solid red;
-    height: 200px;
+    border: 1px solid rgb(155, 151, 151) ;
+    background-color: rgb(243, 240, 240);
+    height: 180px;
     width: 300px;
     max-width: 300px;
     min-width: 300px;
-    border-radius: 2px;
+    border-radius: 6px;
     text-align: left;
     padding: 10px;
     font-size: 12pt;
@@ -107,11 +127,11 @@
 .description{
     display: block;
     margin: auto;
-    margin-top: 1%;
+    margin-top: 3%;
     width: 98%;
-    height: 75%;
-    background-color: lightblue;
-    font-size: 12pt;
+    height: 60%;
+    background-color: transparent;
+    font-size: 10pt;
     color: black;
 }
 a:hover{
@@ -121,4 +141,30 @@ a{
     color: rgb(61, 61, 224);
     font-size: 14pt;
     font-weight: 600;
+}
+.dot{
+    margin-top:5px;
+    width: 12px;
+    height: 12px;
+    background-color: blue;
+    clip-path: circle(6px at center);
+    display: inline-block;
+    margin-right: 10px;
+}
+.dot.java{
+    background-color: rgb(228, 228, 77);
+}
+.dot.react{
+    background-color: rgb(73, 73, 231);
+}
+.dot.python{
+    background-color: rgb(54, 163, 50);
+}
+.dot-text{
+    display: inline-block;
+    color: black;
+}
+.dot-parent{
+    margin-top: 2px;
+    background-color: transparent;
 }
