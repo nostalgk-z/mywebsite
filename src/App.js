@@ -1,7 +1,8 @@
 import React, { PureComponent } from 'react';
 import './App.css';
 import Home from './components/Home';
-
+import Waypoint from 'react-waypoint';
+import { CSSTransition } from 'react-transition-group';
 class App extends PureComponent {
   constructor(props){
     super(props);
@@ -21,16 +22,13 @@ class App extends PureComponent {
 
   render() {
 
-    const {
-      isActive
-    } = this.state;
 
     return (
-      <div className="App">
-       
-        <Home />
+        <div className="App">
+        
+          <Home />
 
-      </div>
+        </div>
     );
   }
 }

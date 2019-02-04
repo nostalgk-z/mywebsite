@@ -47,14 +47,10 @@ class Projects extends Component{
         return(
 
                 <div className="Projects-container">
-                    <div className="top-offset">
-                        <div className="triangle">
-                        </div>
-                    </div>
 
                     <Waypoint
                         onEnter={this._showTitle.bind(this)}
-                        bottomOffset='70%'
+                        bottomOffset='20%'
                     >
                         <div className="title-parent"> 
                             <Plx
@@ -98,8 +94,8 @@ class Projects extends Component{
 
                                     <Container className="project-container">
                                         <Row>
-                                            <Col>
-                                                <a href="#">Kickr</a>
+                                            <Col className="pro-col">
+                                                <a href="https://github.com/ZanePartain/Kickr">Kickr</a>
                                                 <div className="description">
                                                 Kickr is an intramural soccer league managing web application. This is a group project 
                                                 consisting of 4 team members including myself. I was responsible for 
@@ -112,7 +108,7 @@ class Projects extends Component{
                                                     </div>
                                                 </div>
                                             </Col>
-                                            <Col>
+                                            <Col className="pro-col">
                                                 <a href="#">Postscript interpreter</a>
                                                 <div className="description">
                                                 Smile was a project I made for a course at WSU that focused on full-stack development. 
@@ -126,8 +122,8 @@ class Projects extends Component{
                                                 </div>
                                             </Col>
                                             
-                                            <Col>
-                                                <a href="#">Smile</a>
+                                            <Col className="pro-col">
+                                                <a href="https://github.com/ZanePartain/Smile">Smile</a>
                                                 <div className="description">
                                                 Smile was a project I made for a course at WSU that focused on full-stack development. 
                                                 The professor for this course gave the students a bare-minumum guide 

@@ -2,10 +2,10 @@
 
     width: 100%;
     height: 600px;
-    background-color: rgb(243, 240, 240);
+    background-attachment: fixed;
+    /*background-color: rgb(221, 194, 194);*/
     position: relative;
     color: black;
-   
    
 }
 h1{

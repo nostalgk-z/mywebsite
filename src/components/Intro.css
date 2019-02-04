@@ -1,11 +1,13 @@
 .Intro{
     width:100%;
     height: 550px;
-    background-color: rgb(221, 194, 194);
-    border-top: 1px solid black;
+    /*background-color: rgb(221, 194, 194);*/
+    border-top: 1px solid rgb(221, 194, 194);
+    overflow: hidden;
 }
+
 .myBanner-box{
-    background-color: rgb(221, 194, 194);
+    /*background-color: rgb(221, 194, 194);*/
     width: 100%;
     height: 500px;
     size: contain;

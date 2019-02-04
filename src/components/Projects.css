@@ -1,24 +1,10 @@
-.top-offset{
-    width: 100%;
-    height:20px;
-    background-color: rgb(243, 240, 240);
-    display: inline-block;
-}
-.triangle{
-    width: 100%;
-    height: 10px;
-   
-    background-color:rgb(221, 194, 194);
-    display: inline-block;
-    clip-path: polygon(100% 0, 0 100%, 100% 100%);
-}
+
 /**************************************/
 .Projects-container{
     width: 100%;
-    height: 800px;
-    background-image: linear-gradient(top, rgb(221, 194, 194) , rgb(221, 194, 194) , rgb(250, 186, 114));
+    height: 400px;
+   /* background-color: rgb(221, 194, 194);*/
     position: relative;
-    clip-path: polygon(51% 100%, 100% 83%, 100% 0, 0 -20%, 0 83%);
 }
 
 .Projects{
@@ -96,9 +82,11 @@
 .row{
     display: block;
     text-align: center;
+    margin: auto;
+    width: 700px;
 }
 
-.col{
+.pro-col{
     display: inline-block;
     margin: 5px;
     border: 1px solid rgb(155, 151, 151) ;
@@ -112,7 +100,7 @@
     padding: 10px;
     font-size: 12pt;
 }
-.col:hover{
+.pro-col:hover{
     border: 1px solid black;
 }
 

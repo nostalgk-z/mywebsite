@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Plx from 'react-plx';
 import './About.css';
 import  Waypoint  from 'react-waypoint';
-import { CSSTransition} from 'react-transition-group';
+import { CSSTransition } from 'react-transition-group';
 import { Grid } from 'react-bootstrap';
 
 

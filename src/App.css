@@ -25,6 +25,11 @@
 .thumbnail{
   display: inline-block;
 }
+.hi-enter{
+  height: 400px;
+  width: 100%;
+  background-color: blue;
+}
 
 @keyframes App-logo-spin {
   from {

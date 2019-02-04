@@ -1,0 +1,35 @@
+.Animation-container{
+    width: 100%;
+    height: 1200px;
+    /*background-image: linear-gradient(top,rgb(250, 186, 114),rgb(250, 186, 114),rgb(23, 172, 164)); */
+   /* background-image: url(../circle.png);*/
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: contain;
+}
+.top-design{
+    width: 100%;
+    height: 375px;
+    /*background-image: linear-gradient(top, rgb(221, 194, 194), rgb(250, 186, 114));*/
+    clip-path: polygon(50% 100%, 100% 72%, 100% 0, 0 -20%, 0 72%);
+    margin-bottom: 25px;
+}
+.mid-bg{
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    background-image: url('./ocean-waves.jpg');
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position:center;
+    background-size: 750px;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin: 0px 5px 5px 0px;
+}
+.anim-col{
+    display: inline-block;
+    margin-left: 8px;
+}
