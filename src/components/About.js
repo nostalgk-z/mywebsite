@@ -3,7 +3,7 @@ import Plx from 'react-plx';
 import './About.css';
 import  Waypoint  from 'react-waypoint';
 import { CSSTransition } from 'react-transition-group';
-import { Grid } from 'react-bootstrap';
+import { Container ,Row,Col} from 'reactstrap';
 
 
 const parallaxData = [
@@ -56,10 +56,7 @@ class About extends Component{
         return(
             <div className="About-container">
                 
-                <h1 className="Name">
-                    <span>Z A N E P A R T A I N</span> 
-                    
-                </h1>
+              
             
                 
                 <hr></hr>
@@ -67,11 +64,33 @@ class About extends Component{
                     <Plx
                         parallaxData={parallaxData}
                     >
-                        <div>
-                            <div className="one">  Computer Science</div> 
-                            <div className="two">  Software Engineer</div> 
-                            <div className="three">  Web Developer</div> 
-                        </div>
+                        <Container>
+                            <Row>
+                                <Col  sm="50">
+                                <h1 className="Name">
+                                    <span>Z A N E </span> 
+                    
+                                </h1>
+                                </Col>
+                                <Col  sm="50">
+                                <h1 className="Name">
+                                    <span>P A R T A I N </span> 
+                    
+                                </h1>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col xs="6" sm="4">
+                                      Computer Science 
+                                </Col>
+                                <Col xs="6" sm="4">
+                                    Software Engineer
+                                </Col>
+                                <Col xs="6" sm="4">
+                                    Web Developer
+                                </Col>
+                            </Row>
+                        </Container>
                     </Plx>
                 </div>
                 <br></br>
@@ -82,7 +101,7 @@ class About extends Component{
                 >
                     <div> 
                         
-                        <Grid style={{paddingTop: '2rem'}}>
+                        <Container >
                             <CSSTransition
                                 in={isShowBio} //boolean : trigger for animation
                                 timeout={0} //ms
@@ -98,7 +117,7 @@ class About extends Component{
                                     officia deserunt mollit anim id est laborum.
                                 </div>
                             </CSSTransition>
-                        </Grid>
+                        </Container>
 
                     </div>
                 </Waypoint>

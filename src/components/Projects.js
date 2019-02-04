@@ -94,7 +94,12 @@ class Projects extends Component{
 
                                     <Container className="project-container">
                                         <Row>
-                                            <Col className="pro-col">
+                                            <Col 
+                                                 xs="6"
+                                                 sm="4"
+                                                >
+                                                <div className="card">
+                                                </div>
                                                 <a href="https://github.com/ZanePartain/Kickr">Kickr</a>
                                                 <div className="description">
                                                 Kickr is an intramural soccer league managing web application. This is a group project 
@@ -108,7 +113,9 @@ class Projects extends Component{
                                                     </div>
                                                 </div>
                                             </Col>
-                                            <Col className="pro-col">
+                                            <Col 
+                                               xs="6"
+                                               sm="4">
                                                 <a href="#">Postscript interpreter</a>
                                                 <div className="description">
                                                 Smile was a project I made for a course at WSU that focused on full-stack development. 
@@ -122,7 +129,10 @@ class Projects extends Component{
                                                 </div>
                                             </Col>
                                             
-                                            <Col className="pro-col">
+                                            <Col 
+
+                                                 xs="6"
+                                                 sm="4">
                                                 <a href="https://github.com/ZanePartain/Smile">Smile</a>
                                                 <div className="description">
                                                 Smile was a project I made for a course at WSU that focused on full-stack development. 
