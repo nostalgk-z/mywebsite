@@ -4,6 +4,10 @@ self.__precacheManifest = [
     "url": "/mywebsite/static/media/scroll-icon.0e7b08e7.png"
   },
   {
+    "revision": "855fa3df7b637812dc6735abc11d6bfb",
+    "url": "/mywebsite/static/media/ocean-waves.855fa3df.jpg"
+  },
+  {
     "revision": "9fe921cb30ead4e049a230dd8d836b51",
     "url": "/mywebsite/static/media/circle.9fe921cb.png"
   },
@@ -20,19 +24,19 @@ self.__precacheManifest = [
     "url": "/mywebsite/static/js/runtime~main.acc54b31.js"
   },
   {
-    "revision": "57bd0e816738423efd90",
-    "url": "/mywebsite/static/js/main.57bd0e81.chunk.js"
+    "revision": "b77218e2b321a683d984",
+    "url": "/mywebsite/static/js/main.b77218e2.chunk.js"
   },
   {
-    "revision": "fb878cf17054084cebb8",
-    "url": "/mywebsite/static/js/1.fb878cf1.chunk.js"
+    "revision": "da9e1061712e575f3fb8",
+    "url": "/mywebsite/static/js/1.da9e1061.chunk.js"
   },
   {
-    "revision": "57bd0e816738423efd90",
-    "url": "/mywebsite/static/css/main.a3bb5062.chunk.css"
+    "revision": "b77218e2b321a683d984",
+    "url": "/mywebsite/static/css/main.bee83b8c.chunk.css"
   },
   {
-    "revision": "bb082cd054f4f3abf87af2ca42296792",
+    "revision": "d07b5c4f66a66befcf498c5e6822d643",
     "url": "/mywebsite/index.html"
   }
 ];

@@ -1,14 +1,15 @@
 {
-  "main.css": "/mywebsite/static/css/main.a3bb5062.chunk.css",
-  "main.js": "/mywebsite/static/js/main.57bd0e81.chunk.js",
-  "main.js.map": "/mywebsite/static/js/main.57bd0e81.chunk.js.map",
-  "static/js/1.fb878cf1.chunk.js": "/mywebsite/static/js/1.fb878cf1.chunk.js",
-  "static/js/1.fb878cf1.chunk.js.map": "/mywebsite/static/js/1.fb878cf1.chunk.js.map",
+  "main.css": "/mywebsite/static/css/main.bee83b8c.chunk.css",
+  "main.js": "/mywebsite/static/js/main.b77218e2.chunk.js",
+  "main.js.map": "/mywebsite/static/js/main.b77218e2.chunk.js.map",
+  "static/js/1.da9e1061.chunk.js": "/mywebsite/static/js/1.da9e1061.chunk.js",
+  "static/js/1.da9e1061.chunk.js.map": "/mywebsite/static/js/1.da9e1061.chunk.js.map",
   "runtime~main.js": "/mywebsite/static/js/runtime~main.acc54b31.js",
   "runtime~main.js.map": "/mywebsite/static/js/runtime~main.acc54b31.js.map",
-  "static/media/Intro.css": "/mywebsite/static/media/scroll-icon.0e7b08e7.png",
-  "static/css/main.a3bb5062.chunk.css.map": "/mywebsite/static/css/main.a3bb5062.chunk.css.map",
+  "static/media/Intro.css": "/mywebsite/static/media/circle.9fe921cb.png",
+  "static/media/Animation.css": "/mywebsite/static/media/ocean-waves.855fa3df.jpg",
+  "static/css/main.bee83b8c.chunk.css.map": "/mywebsite/static/css/main.bee83b8c.chunk.css.map",
   "index.html": "/mywebsite/index.html",
-  "precache-manifest.4f4780f6e6a17c55cc1752eb0e0fb4aa.js": "/mywebsite/precache-manifest.4f4780f6e6a17c55cc1752eb0e0fb4aa.js",
+  "precache-manifest.1ae613053ffa280a326fcc8c288d8439.js": "/mywebsite/precache-manifest.1ae613053ffa280a326fcc8c288d8439.js",
   "service-worker.js": "/mywebsite/service-worker.js"
 }
