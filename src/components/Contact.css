@@ -1,0 +1,65 @@
+.Contact-container{
+    width: 100%;
+    height: 700px;
+}
+.Name.contact{
+    font-size: 60pt;
+}
+
+.contact-content{
+    padding: 20px;
+    width: 85%;
+    height: 500px;
+    display: block;
+    margin: auto;
+    background-color: transparent;
+}
+
+/*******************/
+
+
+.contact-info{
+    width: 100%;
+    height:400px;
+    background-color: red;
+}
+.contact-info2{
+    width: 100%;
+    height:400px;
+    background-color: transparent;
+}
+
+div.form-group{
+   padding-left: 10px;
+}
+
+.label{
+    font-size: 15pt;
+    float: left;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    font-weight: 350;
+}
+
+.form-control{
+    width: 95%;
+    height: 50px;
+}
+
+.form-hr{
+    width: 80%
+}
+
+#Text.form-control{
+    width: 95%;
+    height: 100px;
+}
+
+.send-msg-button{
+    width: 90%;
+    height: 45px;
+    margin-right: 10px;
+}
+
+/*******************/

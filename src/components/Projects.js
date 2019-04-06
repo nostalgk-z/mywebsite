@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Projects.css';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, Jumbotron } from 'reactstrap';
 import  Plx  from 'react-plx';
 import { CSSTransition } from 'react-transition-group';
 import Waypoint from 'react-waypoint';
@@ -87,10 +87,7 @@ class Projects extends Component{
                             >
                                 <div>
                                     
-                                    
-                                    <div>
-                                        Here are a few of my favorite projects!
-                                    </div>
+                                    <hr></hr>
 
                                     <Container className="project-container">
                                         <Row>
@@ -99,54 +96,68 @@ class Projects extends Component{
                                                  sm="4"
                                                 >
                                                 <div className="card">
-                                                </div>
-                                                <a href="https://github.com/ZanePartain/Kickr">Kickr</a>
-                                                <div className="description">
-                                                Kickr is an intramural soccer league managing web application. This is a group project 
-                                                consisting of 4 team members including myself. I was responsible for 
-                                                the frontend development along with a col…
-                                                </div>
-                                                <div className="dot-parent">
-                                                    <div className="dot react"></div>
-                                                    <div className="dot-text">
-                                                        React
+                                                  
+                                                    <a href="https://github.com/ZanePartain/Kickr">Kickr</a>
+                                                    <div className="description">
+                                                        Kickr is an intramural soccer league managing web application. This is a group project 
+                                                        consisting of 4 team members including myself. I was responsible for 
+                                                        the frontend development along with a col…
                                                     </div>
+                                                    <div className="dot-parent">
+                                                        <div className="dot react"></div>
+                                                        <div className="dot-text">
+                                                            React
+                                                        </div>
+                                                    </div>
+
                                                 </div>
                                             </Col>
                                             <Col 
                                                xs="6"
                                                sm="4">
-                                                <a href="#">Postscript interpreter</a>
-                                                <div className="description">
-                                                Smile was a project I made for a course at WSU that focused on full-stack development. 
-                                                The professor for this course gave the students a bare-minumum guide 
-                                                to follow as well as some starter code. M…
-                                                </div>
-                                                <div className="dot python">
-                                                </div>
-                                                <div className="dot-text">
-                                                    Python
+                                               <div className="card">
+
+                                                    <a href="https://github.com/ZanePartain/LinuxFileSimulator">Linux File Simulator</a>
+                                                    <div className="description">
+                                                        Unix/Linux file system. I have implemented the major functionality of a Linux file
+                                                        system. It supports functions such as mkdir, rmdir, rm, creat, cd, ls, etc..
+                                                    </div>
+                                                    <div className="dot python">
+                                                    </div>
+                                                    <div className="dot-text">
+                                                        Python
+                                                    </div>
+
                                                 </div>
                                             </Col>
                                             
                                             <Col 
+                                                xs="6"
+                                                sm="4">
+                                                <div className="card">
 
-                                                 xs="6"
-                                                 sm="4">
-                                                <a href="https://github.com/ZanePartain/Smile">Smile</a>
-                                                <div className="description">
-                                                Smile was a project I made for a course at WSU that focused on full-stack development. 
-                                                The professor for this course gave the students a bare-minumum guide 
-                                                to follow as well as some starter code. M…
-                                                </div>
-                                                <div className="dot java">
-                                                </div>
-                                                <div className="dot-text">
-                                                    Javascript
+                                                    <a href="https://github.com/ZanePartain/Smile">Smile</a>
+                                                    <div className="description">
+                                                    Smile was a project I made for a course at WSU that focused on full-stack development. 
+                                                    The professor for this course gave the students a bare-minumum guide 
+                                                    to follow as well as some starter code. M…
+                                                    </div>
+                                                    <div className="dot java">
+                                                    </div>
+                                                    <div className="dot-text">
+                                                        Javascript
+                                                    </div>
+
                                                 </div>
                                             </Col>
                                         </Row>
                                     </Container>
+
+                                    <Jumbotron className="git-jumbo">
+                                        <hr></hr>
+                                        <a href="https://github.com/ZanePartain"><h2>GITHUB</h2></a>
+                                        
+                                    </Jumbotron>
                                 </div>
                             </CSSTransition>
                         </div>

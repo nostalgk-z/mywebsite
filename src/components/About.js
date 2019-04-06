@@ -68,14 +68,7 @@ class About extends Component{
                             <Row>
                                 <Col  sm="50">
                                 <h1 className="Name">
-                                    <span>Z A N E </span> 
-                    
-                                </h1>
-                                </Col>
-                                <Col  sm="50">
-                                <h1 className="Name">
-                                    <span>P A R T A I N </span> 
-                    
+                                    <span> <div className="first-name">Z A N E</div> P A R T A I N </span> 
                                 </h1>
                                 </Col>
                             </Row>

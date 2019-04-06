@@ -4,6 +4,7 @@ import About from './About';
 import Intro from './Intro';
 import Projects from './Projects';
 import Animation from './Animation';
+import Contact from './Contact';
 import Waypoint from 'react-waypoint';
 import { CSSTransition } from 'react-transition-group';
 import Plx from 'react-plx';
@@ -44,7 +45,8 @@ class Home extends Component{
                 <Intro />
                 <About />
                 <Projects />
-                <Animation />
+                <Contact />
+                {/**<Animation />*/}
         </div>
       
     );
