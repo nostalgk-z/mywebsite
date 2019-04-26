@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Contact.css';
+import * as firebase from 'firebase';
 
 import {
     Form,FormGroup,Label,Input,
@@ -7,19 +8,45 @@ import {
     Button } from 'reactstrap';
 
 class Contact extends Component{
+    constructor(){
+        super();
+        this.state={
+            speed: 10
+        }
+    }
+
+    componentWillMount(){
+       const rootRef = firebase.database().ref().child('email');
+       const speedRef = rootRef.child('speed');
+       speedRef.on('value', snap => {
+           this.setState({
+               speed: snap.val()
+           });
+       });
+
+    }
 
     render(){
         return(
             <div className="Contact-container">
                 <h1 className="Name contact">C O N T A C T</h1>
                 <div className="contact-content">
+                    <label>
+                        Email: <tab></tab><div className="cont">zanepartain@live.com</div>
+                    </label>
+                    <br></br>
+                    <label>
+                        Github: <tab></tab>
+                        <a href="https://github.com/ZanePartain"><div className="cont">https://github.com/ZanePartain</div></a>
+                    </label>
+                    {/** 
                    <Container fluid={true}>
                        <Row > 
                            <Col sm={{ size: 6, order: 2, offset: 1 }}>
                                 <div className="contact-info">
                                     {/** 
                                        put email (not WSU), linked-in, instagram, resume, github 
-                                    */}
+                                    
                                 </div>
                            </Col>
                            <Col sm={{ size: 6, order: 1, offset: 1 }}>
@@ -53,9 +80,9 @@ class Contact extends Component{
                            </Col>
                        </Row>
                    </Container>
-                
+                         */}
                 </div>
-            
+                
             </div>
         ); 
     }

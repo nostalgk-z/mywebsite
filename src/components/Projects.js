@@ -125,7 +125,7 @@ class Projects extends Component{
                                                     <div className="dot python">
                                                     </div>
                                                     <div className="dot-text">
-                                                        Python
+                                                        C
                                                     </div>
 
                                                 </div>

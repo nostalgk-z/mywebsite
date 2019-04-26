@@ -4,6 +4,7 @@
   "homepage": "https://zanepartain.github.io/mywebsite",
   "private": true,
   "dependencies": {
+    "firebase": "^5.9.4",
     "npm": "^6.5.0",
     "react": "^16.6.3",
     "react-bootstrap": "^0.32.4",
