@@ -43,7 +43,7 @@ class Home extends Component{
         <div className="Home">
                 <Intro />
                 <About />
-                <Projects />
+                {/* <Projects /> */}
                 {/**<Animation />*/}
         </div>
       
