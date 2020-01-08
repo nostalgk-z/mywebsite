@@ -35,16 +35,12 @@ const parallaxData2 = [
     ];
 
 
-const Intro = (props) =>{
+const Intro = () =>{
             
         return(
             <div className="Intro">
                 {/**background ring*/}
-                <Plx
-                    parallaxData={parallaxData}
-                >
-                    <div className="myBanner-box"></div>
-                </Plx>
+                <div className="myBanner-box"></div>
                 {/**Middle ground ring*/}
                 <Plx
                      parallaxData={parallaxData2}
@@ -57,10 +53,6 @@ const Intro = (props) =>{
                 >
                     <div className="banner-fbox"></div>
                 </Plx>
-                {/**scroll text/icon helper*/}
-                <div className="scroll-text">
-                    scroll  <div className="scroll-icon"> </div>
-                </div>
             </div>
         );
 }

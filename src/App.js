@@ -1,9 +1,10 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import Home from './components/Home';
 import Waypoint from 'react-waypoint';
 import { CSSTransition } from 'react-transition-group';
-class App extends PureComponent {
+
+class App extends Component {
   constructor(props){
     super(props);
     this.state={
