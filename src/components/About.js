@@ -56,9 +56,6 @@ class About extends Component{
         return(
             <div className="About-container">
                 
-              
-            
-                
                 <hr></hr>
                 <div className="bull-container">
                     <Plx
@@ -86,7 +83,9 @@ class About extends Component{
                         </Container>
                     </Plx>
                 </div>
+
                 <br></br>
+                
                 <Waypoint
                     onEnter={this._showBio.bind(this)}
                     onLeave={this._showBio.bind(this)}

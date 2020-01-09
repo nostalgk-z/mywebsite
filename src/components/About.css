@@ -1,3 +1,4 @@
+/** TODO :: media screen margin-top adjustments*/
 .About-container{
     margin-top: 550px;
     width: 100%;
@@ -7,6 +8,7 @@
     position: relative;
     color: black;
 }
+
 h1{
     margin-top: 0px;
     margin-bottom:0px;
@@ -60,12 +62,15 @@ hr{
     position: relative;
 }
 
+
+
+/** CSS TRANSITION*/
 .bio-enter{
     opacity: 0;
     transform: translateY(15px);
 }
 .bio-enter-done{
-    transition: all 500ms linear;
+    transition: all 100ms linear;
     transform: translateY(0px);
     opacity: 1;
 }

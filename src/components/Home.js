@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css';
 import About from './About';
+import './About.css'
 import Intro from './Intro';
 import Projects from './Projects';
 import Animation from './Animation';
@@ -29,6 +30,7 @@ class Home extends Component{
         super(props);
         this.state={
             loadPage: true,
+            isShowBio: false,
         };
     }
 
@@ -37,15 +39,21 @@ class Home extends Component{
         console.log("in _showAnimation()");
     }
 
+    _showBio = () =>{
+        this.setState({isShowBio: !this.isShowBio});
+    }
+
     render() {
+        const { isShowBio } = this.state;
     return(
        
-        <div className="Home">
+       
+            <div className="Home">
                 <Intro />
                 <About />
                 {/* <Projects /> */}
                 {/**<Animation />*/}
-        </div>
+            </div>
       
     );
     }
