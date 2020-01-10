@@ -97,8 +97,9 @@ hr{
 }
 
 
-@media screen and (max-width: 767px) {
+/* iPAD PRO Landscape */
+@media screen and (max-width: 1366px) {
     div.dummy-container{
-        height: 450px;
+        height: 540px;
     }    
-  }
+}

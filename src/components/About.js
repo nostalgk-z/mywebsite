@@ -63,7 +63,6 @@ class About extends Component{
                     I have a passion for technology and community, which fuels my drive to create code that will make a difference. When I am not busy with school work I 
                     spend my free time working on personal projects, and hanging out with family. I believ the experience I gain from my courses has given me the foundation 
                     I need to approach new problems, quickly learn new programming languages, and write clean code. 
-                    I have a drive to become a professional, and strive to gain real world experience. 
                 </div>
             </div>
         )

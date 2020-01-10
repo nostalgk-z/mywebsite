@@ -51,15 +51,15 @@ class Intro extends Component{
                             {/** BIO */}
                             <Col lg="6" md="6" sm="12"  style={{height: 'fit-content'}}>
                                 {/** TODO :: add media screen difference styling */}
-                                <div className="header" style={{ fontWeight: 500 }}>
-                                    I am an undergraduate student living in Pullman, attending Washington State University working 
-                                    toward my Bachelors degree in Computer Science. I have a passion for technology and community, 
-                                    which fuels my drive to create code that will make a difference. 
+                                
+                                <h1 className="header"> ZANE PARTAIN </h1>
+                                <div className="footer" style={{ fontWeight: 500 }}>
+                                    I have a love for technology, and a passion to create.
                                 </div>
                             </Col>
 
                             {/** MY HEADSHOT */}
-                            <Col lg="6" md="6" >
+                            <Col lg="6" md="6" style={{height: '700px'}}>
                                 <div className="my-headshot" ></div>
                             </Col>
                         </Row>
