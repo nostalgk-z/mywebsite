@@ -104,14 +104,14 @@ hr{
     }    
 }
 
-/* iPAD veritcal */
+/* iPAD Veritcal */
 @media screen and (max-width: 768px) {
     div.dummy-container{
         height: 505px;
     }    
 }
 
-/* iPAD landscape */
+/* iPAD Landscape */
 @media screen and (max-width: 1024px) and (max-height: 769px){
     div.dummy-container{
         height: 560px;
@@ -123,4 +123,11 @@ hr{
     div.dummy-container{
         height: 298px;
     }   
+}
+
+/* iPHONE X Vertical */
+@media screen and (max-width: 380px) and (max-height: 850px){
+    div.dummy-container{
+        height: 460px;
+    }  
 }

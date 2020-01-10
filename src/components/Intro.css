@@ -122,7 +122,30 @@ div.footer{
     div.my-headshot{
         height: 400px;
         background-size: 275px;
-        margin-top: -10%;
+        margin-top: -50px;
+    }
+    div.Intro{
+        padding: 20px;
+        height: 500px;
+    }
+    h1.header{
+        font-size: 45px;
+        margin-top: 20%;
+    }
+    .my-navbar{
+        margin-bottom: 5px;
+    }
+}
+
+/* iPHONE X vertical */
+@media screen and (max-width: 380px) and (max-height: 850px){
+    div.footer {
+        display: none;
+    }
+    div.my-headshot{
+        height: 400px;
+        background-size: 325px;
+        margin-top: -50px;
     }
     div.Intro{
         padding: 15px;
@@ -130,7 +153,7 @@ div.footer{
     }
     h1.header{
         font-size: 45px;
-        margin-top: 20%;
+        margin-top: 0;
     }
     .my-navbar{
         margin-bottom: 10px;

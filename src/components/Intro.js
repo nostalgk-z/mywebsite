@@ -47,7 +47,7 @@ class Intro extends Component{
                 <div>
                     <Container className="Intro" style={{ maxWidth: '100%', overflow: 'hidden' }}>
                     
-                        <Row  style={{ height: "inherit", position: "relative", color: "black" }}>
+                        <Row  style={{ height: "inherit", position: "relative", color: "black", textAlign:"center" }}>
                             {/** BIO */}
                             <Col lg="6" md="6" sm="12"  style={{height: 'fit-content'}}>
                                 {/** TODO :: add media screen difference styling */}
@@ -59,7 +59,7 @@ class Intro extends Component{
                             </Col>
 
                             {/** MY HEADSHOT */}
-                            <Col lg="6" md="6" style={{height: '700px'}}>
+                            <Col lg="6" md="6" style={{width: '100%'}}>
                                 <div className="my-headshot" ></div>
                             </Col>
                         </Row>
