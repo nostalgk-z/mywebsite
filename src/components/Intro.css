@@ -91,9 +91,48 @@ div.footer{
    
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-height: 300px) {
+/* iPAD PRO Landscape */
+@media screen and (max-width: 1366px) and (orientation: landscape) {
+    div.Intro{
+        padding: 15px;
+    }
+}
+
+
+/* iPAD veritcal */
+@media screen and (max-width: 768px) {
     div.footer {
-      font-size: 2px;
+        /* display: none; */
+    }
+    div.my-headshot{
+        height: 550px;
+        background-size: 450px;
+        margin-top: -5%;
+    }
+    div.Intro{
+        height: 600px;
+    }
+}
+
+/* iPHONE X Landscape */
+@media screen and (max-width: 815px) and (max-height: 380px) and (orientation: landscape){
+    div.footer {
+        font-size: 15px;
+    }
+    div.my-headshot{
+        height: 400px;
+        background-size: 275px;
+        margin-top: -10%;
+    }
+    div.Intro{
+        padding: 15px;
+        height: 500px;
+    }
+    h1.header{
+        font-size: 45px;
+        margin-top: 20%;
+    }
+    .my-navbar{
+        margin-bottom: 10px;
     }
 }
