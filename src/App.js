@@ -3,6 +3,14 @@ import './App.css';
 import Home from './components/Home';
 import Waypoint from 'react-waypoint';
 import { CSSTransition } from 'react-transition-group';
+import NavBar from './components/NavBar';
+import About from './components/About';
+import { Container } from 'reactstrap';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Intro from './components/Intro';
+import Projects from './components/Projects';
+
 
 class App extends Component {
   constructor(props){
@@ -25,11 +33,13 @@ class App extends Component {
 
 
     return (
-        <div className="App">
-        
-          <Home />
-
-        </div>
+        <Container style={{maxWidth: '100%', padding: 0}}>
+          
+            <NavBar />
+            <Home />
+            <About />
+            <Projects />
+        </Container>  
     );
   }
 }

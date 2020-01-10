@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import Plx from 'react-plx';
 import './Intro.css';
 import './About.css';
-
-
 import Waypoint from 'react-waypoint';
 import { CSSTransition } from 'react-transition-group';
 import { Container, Row, Col } from 'reactstrap';
@@ -47,13 +45,13 @@ class Intro extends Component{
     render(){
         return(
                 <div>
-                    <Container className="Intro">
+                    <Container className="Intro" style={{ maxWidth: '100%' }}>
                     
                         <Row  style={{ height: "inherit", position: "relative", color: "black" }}>
                             {/** BIO */}
-                            <Col xs="6"sm="6" >
+                            <Col lg="6" md="6" sm="12" >
                                 {/** TODO :: add media screen difference styling */}
-                                <div style={{ marginTop: "25%"}}>
+                                <div style={{ marginTop: "25%" }}>
                                     I am an undergraduate student living in Pullman, attending Washington State University working 
                                     toward my Bachelors degree in Computer Science. I have a passion for technology and community, 
                                     which fuels my drive to create code that will make a difference. When I am not busy with school 
@@ -62,7 +60,7 @@ class Intro extends Component{
                             </Col>
 
                             {/** MY HEADSHOT */}
-                            <Col xs="6"sm="6" >
+                            <Col lg="6" md="6" sm="12" style={{paddingLeft: 'none'}}>
                                 <div className="my-headshot" style={{ marginTop: "-8%"}} ></div>
                             </Col>
                         </Row>

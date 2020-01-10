@@ -8,6 +8,7 @@ import Animation from './Animation';
 import Waypoint from 'react-waypoint';
 import { CSSTransition } from 'react-transition-group';
 import Plx from 'react-plx';
+import NavBar from './NavBar';
 
 
 
@@ -24,6 +25,7 @@ const parallaxData=[
         ]
     },
 ];
+
 
 class Home extends Component{
     constructor(props){
@@ -45,17 +47,14 @@ class Home extends Component{
 
     render() {
         const { isShowBio } = this.state;
-    return(
-       
-       
+        return(
             <div className="Home">
                 <Intro />
-                <About />
+                {/* <About /> */}
                 {/* <Projects /> */}
                 {/**<Animation />*/}
             </div>
-      
-    );
+        );
     }
 }
 export default Home;
