@@ -63,23 +63,31 @@ div.footer{
 
 
 /* iPAD PRO Landscape */
-@media screen and (max-width: 1366px) and (orientation: landscape) {
-    div.Intro{
-        padding: 15px;
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape){
+    div.header{
+        margin-top: 35vh;
+    }
+    div.my-headshot{
+        background-size: 80.5vh;
+        margin-top: -6%;
     }
 }
 
 /* iPAD veritcal */
-@media only screen and (min-width : 768px) and (max-width : 1024px)  
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait)
 {
-    div.footer {
-        /* display: none; */
+    div.header{
+        margin-top: 15vh;
     }
     div.my-headshot{
-        width:100%;
-        background-size: 450px;
+        background-size: 45vh;
         margin-top: -5%;
     }
+    
 }
 
 /* iPAD landscape */
@@ -106,7 +114,6 @@ div.footer{
     }
     div.Intro{
         padding: 20px;
-        height: 500px;
     }
     div.header{
         font-size: 45px;

@@ -57,11 +57,14 @@ class Intro extends Component{
                                     I have a love for technology, and a passion to create.
                                 </div>
                             </Col>
-
+                            
                             {/** MY HEADSHOT */}
-                            <Col lg="6" md="6" sm="6" style={{width: '100%'}}>
+                            <Col className="pic" lg="6" md="6" sm="6" style={{width: '100%'}}>
                                 <div className="my-headshot" ></div>
                             </Col>
+                        </Row>
+                        <Row style={{ height: "inherit", position: "relative", color: "black", textAlign:"center", margin: 0 }}>
+
                         </Row>
 
                         {/* <Plx

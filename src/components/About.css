@@ -104,11 +104,21 @@ hr{
     }   
 }
 
+/* iPAD PRO Landscape */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape){
+    div.dummy-container{
+        height: 91.2vh;
+    }   
+}
 
 /* iPAD Veritcal */
 @media screen and (max-width: 768px) {
     div.dummy-container{
-        height: 505px;
+        height: 52vh;
     }    
 }
 
@@ -122,7 +132,7 @@ hr{
 /* iPHONE X Landscape */
 @media screen and (max-width: 815px) and (max-height: 450px) and (orientation: landscape){
     div.dummy-container{
-        height: 300px;
+        height: 81.2vh;
     }   
 }
 
