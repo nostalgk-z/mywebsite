@@ -47,19 +47,19 @@ class Intro extends Component{
                 <div>
                     <Container className="Intro" style={{ maxWidth: '100%', overflow: 'hidden' }}>
                     
-                        <Row  style={{ height: "inherit", position: "relative", color: "black", textAlign:"center" }}>
+                        <Row  style={{ height: "inherit", position: "relative", color: "black", textAlign:"center", margin: 0 }}>
                             {/** BIO */}
-                            <Col lg="6" md="6" sm="12"  style={{height: 'fit-content'}}>
+                            <Col lg="6" md="6" sm="6" style={{height: 'fit-content'}}>
                                 {/** TODO :: add media screen difference styling */}
                                 
-                                <h1 className="header"> ZANE PARTAIN </h1>
+                                <div className="header"> ZANE PARTAIN </div>
                                 <div className="footer" style={{ fontWeight: 500 }}>
                                     I have a love for technology, and a passion to create.
                                 </div>
                             </Col>
 
                             {/** MY HEADSHOT */}
-                            <Col lg="6" md="6" style={{width: '100%'}}>
+                            <Col lg="6" md="6" sm="6" style={{width: '100%'}}>
                                 <div className="my-headshot" ></div>
                             </Col>
                         </Row>
