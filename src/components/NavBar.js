@@ -29,7 +29,7 @@ class NavBar extends Component {
   }
   render() {
     return (
-          <Navbar style={{ borderRadius: 0, margin: 0}}color="light" light expand="md" sticky="top">
+          <Navbar style={{ borderRadius: 0, margin: 0, border: 0, /*backgroundColor: 'grey'*/}} color="light"  light expand="md" sticky="top">
             <NavbarBrand href="/">reactstrap</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>

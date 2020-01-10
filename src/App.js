@@ -33,12 +33,13 @@ class App extends Component {
 
 
     return (
-        <Container style={{maxWidth: '100%', padding: 0}}>
+        <Container style={{maxWidth: '100%', padding: 0, overflow: 'hidden'}}>
           
             <NavBar />
             <Home />
             <About />
             <Projects />
+
         </Container>  
     );
   }

@@ -19,6 +19,8 @@
     background-position: top center;
     /* background-attachment: fixed; */
     overflow: hidden;
+    margin-top: -8%;
+    width: auto;
 }
 
 /* .banner-mbox{
@@ -47,3 +49,44 @@
     position: absolute;
     
 } */
+
+div.header{
+    font-size: 30px;
+    margin-top: 20%;
+
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1100px) {
+    div.header {
+      margin-top: 22%;
+      font-size: 27px;
+    }
+  }
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 825px) {
+    div.header {
+      margin-top: 25%;
+      font-size: 25px;
+    }
+  }
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 767px) {
+    div.header {
+      display: none;
+    }
+    div.my-headshot{
+        height: 500px;
+        background-size: 400px;
+    }
+    div.Intro{
+        height: 500px;
+    }
+
+  }
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-height: 300px) {
+    div.header {
+      font-size: 2px;
+    }
+  }

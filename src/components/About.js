@@ -56,7 +56,7 @@ class About extends Component{
         return(
             <div>
 
-                <div style={{ width: '100%', height: '550px', backgroundColor: 'transparent'}} />
+                <div className="dummy-container" style={{ width: '100%', backgroundColor: 'transparent'}} />
 
                 <div className="About-container">
                     I am an undergraduate student living in Pullman, attending Washington State University working toward my Bachelors degree in Computer Science. 

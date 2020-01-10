@@ -45,23 +45,22 @@ class Intro extends Component{
     render(){
         return(
                 <div>
-                    <Container className="Intro" style={{ maxWidth: '100%' }}>
+                    <Container className="Intro" style={{ maxWidth: '100%', overflow: 'hidden' }}>
                     
                         <Row  style={{ height: "inherit", position: "relative", color: "black" }}>
                             {/** BIO */}
-                            <Col lg="6" md="6" sm="12" >
+                            <Col lg="6" md="6" sm="12"  style={{height: 'fit-content'}}>
                                 {/** TODO :: add media screen difference styling */}
-                                <div style={{ marginTop: "25%" }}>
+                                <div className="header" style={{ fontWeight: 500 }}>
                                     I am an undergraduate student living in Pullman, attending Washington State University working 
                                     toward my Bachelors degree in Computer Science. I have a passion for technology and community, 
-                                    which fuels my drive to create code that will make a difference. When I am not busy with school 
-                                    work I spend my free time working on personal projects, and hanging out with family.
+                                    which fuels my drive to create code that will make a difference. 
                                 </div>
                             </Col>
 
                             {/** MY HEADSHOT */}
-                            <Col lg="6" md="6" sm="12" style={{paddingLeft: 'none'}}>
-                                <div className="my-headshot" style={{ marginTop: "-8%"}} ></div>
+                            <Col lg="6" md="6" >
+                                <div className="my-headshot" ></div>
                             </Col>
                         </Row>
 
