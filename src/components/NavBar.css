@@ -2,4 +2,13 @@
     top: 0;
     /* box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25); */
     background-color: transparent;
+    position: fixed;
+}
+
+.collapsing{
+    display:none;
+}
+.show{
+    background-color: transparent;
+    height: 0px;
 }

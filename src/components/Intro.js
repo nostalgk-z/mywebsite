@@ -56,7 +56,6 @@ class Intro extends Component{
                                 I have a love for technology, and a passion to create.
                             </div> */}
                         </div>
-
                     {/* <Container className="Intro" style={{ maxWidth: '100%', overflow: 'hidden' }}>
                     
                         <Row  style={{ minHeight: '550px', height: "inherit", position: "relative", color: "black", textAlign:"center", margin: 0 }}>
@@ -73,6 +72,7 @@ class Intro extends Component{
                             </Col>
                         </Row>
                         <Row style={{ height: "inherit", position: "relative", color: "black", textAlign:"center", margin: 0 }}>
+
 
                         </Row> */}
                         {/* <Plx
