@@ -3,9 +3,14 @@
     padding: 15px;
     padding-bottom: 0px;
     height: 100vh;
+    width: 100%;
+    position: fixed;
 }
 .contnr{
-    margin-top: -15px;
+    /* margin-top: -15px; */
+    width: 100%;
+    float: right;
+    align-content: center;
 }
 .my-headshot{
     /* display: block;
@@ -16,15 +21,15 @@
     background-repeat: no-repeat;
     background-size: 73.5vh;
     background-position: top center;
-    background-attachment: fixed;
     max-height: 100%;
-    max-width: 100%;
+    max-width: 50%;
+    display: inline-block;
 }
 
 .navbar{
 }
 
-/* div.header{
+div.header{
     display: inline-block;
     font-size: 10px;
     color: rgb(74, 74, 74);
@@ -33,7 +38,14 @@
 div.footer{
     font-size: 20px;
     color: rgb(74, 74, 74);
-} */
+}
+div.feature{
+    margin-top: 200px;
+    height: inherit;
+    text-align: center;
+    float: left;
+    width: 40%;
+}
 
 
 /* .banner-mbox{
@@ -136,6 +148,31 @@ div.footer{
         background-size: 375px;
     }
 }
+
+/* 13'' screen halway point*/
+@media screen and (max-width: 700px){
+    div.feature{
+        display: block;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .my-headshot{
+        display: block;
+        min-width: 100%;
+    }
+}
+
+/* 13'' screen halway point*/
+@media screen and (min-width: 700.5px){
+    div.feature{
+        float: left;
+    }
+    .my-headshot{
+        float: right;
+        min-width: 50%;
+    }
+}
+
 
 
 /* small width of window (less than half screen) */

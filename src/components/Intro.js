@@ -5,6 +5,7 @@ import './About.css';
 import Waypoint from 'react-waypoint';
 import { CSSTransition } from 'react-transition-group';
 import { Container, Row, Col } from 'reactstrap';
+import { Z_BLOCK } from 'zlib';
 
 
 /**
@@ -47,14 +48,15 @@ class Intro extends Component{
                 <div>
                         <div className="Intro">
                             <div className="contnr">
-
+                                <div className="feature">
+                                    <div className="header"> ZANE PARTAIN </div>
+                                    <div className="footer" style={{ fontWeight: 500 }}>
+                                        I have a love for technology, and a passion to create.
+                                    </div>
+                                </div>
                                 <div className="my-headshot" >
                                 </div>
                             </div>
-                            {/* <div className="header"> ZANE PARTAIN </div>
-                            <div className="footer" style={{ fontWeight: 500 }}>
-                                I have a love for technology, and a passion to create.
-                            </div> */}
                         </div>
                     {/* <Container className="Intro" style={{ maxWidth: '100%', overflow: 'hidden' }}>
                     
