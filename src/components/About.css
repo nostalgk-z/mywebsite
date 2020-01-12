@@ -8,7 +8,12 @@
     color: black;
 }
 
-h1{
+.dummy-container{
+    height: 86vh;
+}
+
+
+/* h1{
     margin-top: 0px;
     margin-bottom:0px;
 }
@@ -42,7 +47,7 @@ hr{
 }
 
 
-.one{
+/* .one{
     float: left;
     margin-left: 2%;
     position: absolute;
@@ -59,20 +64,16 @@ hr{
     float: right;
     margin-right: 2%;
     position: relative;
-}
-
-.dummy-container{
-    height: 550px;
-}
+} */
 
 
 /** CSS TRANSITION*/
-.bio-enter{
+/* .bio-enter{
     opacity: 0;
     transform: translateY(15px);
 }
 .bio-enter-done{
-    /* background-color: red; */
+    background-color: red;
     transition: all 100ms linear;
     transform: translateY(0px);
     opacity: 1;
@@ -94,7 +95,7 @@ hr{
 .first-name{
     display: inline-block;
     color: darkred;
-}
+} */
 
 
 /* big monitor */
@@ -104,65 +105,3 @@ hr{
     }   
 }
 
-/* iPAD PRO Landscape */
-@media only screen 
-  and (min-width: 1024px) 
-  and (max-width: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 2) 
-  and (orientation: landscape){
-    div.dummy-container{
-        height: 91vh;
-    }   
-}
-
-/* iPAD Veritcal */
-@media screen and (max-width: 768px) {
-    div.dummy-container{
-        height: 52vh;
-    }    
-}
-
-/* iPAD Landscape */
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape){
-    div.dummy-container{
-        height: 88.5vh;
-    }    
-}
-
-/* iPHONE X Landscape */
-@media screen and (max-width: 815px) and (max-height: 450px) and (orientation: landscape){
-    div.dummy-container{
-        height: 81.2vh;
-    }   
-}
-
-/* iPHONE X/6+/7+/8+ Vertical */
-@media screen and (max-width: 450px) and (max-height: 850px){
-    div.dummy-container{
-        height: 465px;
-    }  
-}
-
-/* iPHONE 6+/7+/8+ Landscape */
-@media only screen 
-and (min-width : 414px) 
-and (max-width : 736px) 
-and (orientation : landscape){
-    
-    div.dummy-container{
-        height: 83vh;
-    }  
-
-}
-
-/* iPHONE 6/7/8 Landscape*/
-@media only screen 
-and (min-width : 375px) 
-and (max-width : 667px) 
-and (orientation : landscape){
-
-    div.dummy-container{
-        height: 81vh;
-    }  
-
-}

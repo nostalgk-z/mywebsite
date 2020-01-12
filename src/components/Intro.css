@@ -7,6 +7,7 @@
     background-color: white;
     /* border-top: 1px solid rgb(221, 194, 194); */
     overflow: hidden;
+    min-height: 400px;
 }
 
 .my-headshot{
@@ -16,11 +17,12 @@
     height: 100vh;
     background-image: url('../ZaneHeadshot.jpg');
     background-repeat: no-repeat;
-    background-size: 500px;
+    background-size: 75vh;
     background-position: top center;
     /* background-attachment: fixed; */
     margin-top: -8%;
-    width: auto;
+    min-height: 400px;
+    min-width: 400px;
 }
 
 /* .banner-mbox{
@@ -62,172 +64,59 @@ div.footer{
 }
 
 
-/* iPAD PRO Landscape */
-@media only screen 
-  and (min-width: 1024px) 
-  and (max-width: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 2) 
-  and (orientation: landscape){
-  
+/* small width of window (less than half screen) */
+@media screen and (max-width: 575px) {
+    div.header{
+        font-size: 50px;
+        font-weight: 700;
+        margin-top: 0%;
+    }
     div.footer{
-        font-size: 35px;
-    }
-    div.header{
-        margin-top: 35vh;
-        font-size: 85px;
-    }
-    div.my-headshot{
-        background-size: 80vh;
-        margin-top: -5.6%;
-    }
-}
-
-/* iPAD veritcal */
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait)
-{
-    div.header{
-        margin-top: 15vh;
-    }
-    div.my-headshot{
-        background-size: 45vh;
-        margin-top: -5%;
-    }
-    
-}
-
-/* iPAD landscape */
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape)
-{
-    div.footer{
-        font-size: 28px;
-    }
-    div.header{
-        margin-top: 35vh;
-        font-size: 62px;
-    }
-    div.my-headshot{
-        background-size: 77vh;
-        margin-top: -5%;
-    }
-}
-
-/* iPHONE X Landscape */
-@media screen and (max-width: 815px) and (max-height: 400px) and (orientation: landscape){
-    div.footer {
         font-size: 15px;
+        color: rgb(74, 74, 74);
     }
-    div.my-headshot{
-        height: 400px;
-        background-size: 275px;
-        margin-top: -50px;
-    }
-    div.Intro{
-        padding: 20px;
-    }
-    div.header{
-        font-size: 45px;
-        margin-top: 20%;
-    }
-    .my-navbar{
+    .navbar{
         margin-bottom: 5px;
+    }
+    .my-headshot{
+        height: fit-content;
+        background-size: 350px;
+        background-position: top center;
+        /* background-attachment: fixed; */
+        margin-top: -100px;
+        min-height: 410px;
+        min-width: 400px;
     }
 }
 
+/* small width of window (less than half screen) */
+@media screen and (max-height: 570px){
+    div.footer{
+        font-size: 20px;
+        color: rgb(74, 74, 74);
+    }
+    .my-headshot{
+        background-size: 425px;
+        background-position: top center;
+        /* background-attachment: fixed; */
+        min-height: 410px;
+        min-width: 400px;
+    }
+}
 
-/* iPHONE X/6/7/8 vertical */
-@media screen and (max-width: 450px) and (max-height: 850px){
-    div.footer {
-        display: none;
+/* small width of window (less than half screen) */
+@media screen and (max-height: 603px) and (max-width: 575px){
+    div.footer{
+        font-size: 15px;
+        color: rgb(74, 74, 74);
     }
-    div.my-headshot{
-        height: 400px;
-        background-size: 325px;
-        margin-top: -50px;
-    }
-    div.Intro{
-        padding: 15px;
+    .my-headshot{
         height: 500px;
-    }
-    div.header{
-        font-size: 45px;
-        margin-top: 0;
-    }
-    .my-navbar{
-        margin-bottom: 10px;
-    }
-}
-
-
-/* iPHONE 6+/7+/8+ Landscape */
-@media only screen 
-and (min-width : 414px) 
-and (max-width : 736px) 
-and (orientation : landscape){
-    div.footer {
-        font-size: 16px;
-    }
-    div.my-headshot{
-        height: 400px;
-        background-size: 310px;
-        margin-top: -45px;
-    }
-    div.Intro{
-        padding: 15px;
-        height: 500px;
-    }
-    div.header{
-        font-size: 45px;
-        margin-top: 95px;
-    }
-    .my-navbar{
-        margin-bottom: 5px;
+        background-size: 350px;
+        background-position: top center;
+        /* background-attachment: fixed; */
+        margin-top: -2px;
+        min-height: 410px;
+        min-width: 400px;
     }
 }
-
-
-/* iPHONE 6/7/8 Landscape */
-@media only screen 
-and (min-width : 375px) 
-and (max-width : 667px) 
-and (orientation : landscape){
-    div.footer {
-        font-size: 14px;
-    }
-    div.my-headshot{
-        height: 400px;
-        background-size: 275px;
-        margin-top: -45px;
-    }
-    div.Intro{
-        padding: 15px;
-        height: 500px;
-    }
-    div.header{
-        font-size: 41px;
-        margin-top: 80px;
-    }
-    .my-navbar{
-        margin-bottom: 5px;
-    }
-}
-
-
-/* big monitor */
-@media screen and (min-width: 1600px) {
-    div.my-headshot{
-        background-size: 80%;
-        margin-top: -50px;
-    }
-    div.Intro{
-        padding: 15px;
-        height: 100vh;
-    }
-    div.header{
-        font-size: 80px;
-        margin-top: 30%;
-    }
-    .my-navbar{
-        margin-bottom: 5px;
-    }
-}
-
