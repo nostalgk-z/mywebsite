@@ -8,9 +8,11 @@
 }
 .contnr{
     /* margin-top: -15px; */
+    height: 85vh;
     width: 100%;
     float: right;
     align-content: center;
+    overflow:visible;
 }
 .my-headshot{
     /* display: block;
@@ -20,7 +22,7 @@
     background-image: url('../ZaneHeadshot.jpg');
     background-repeat: no-repeat;
     background-size: 73.5vh;
-    background-position: top center;
+    background-position: center;
     max-height: 100%;
     max-width: 50%;
     display: inline-block;
@@ -36,7 +38,7 @@ div.header{
 }
 
 div.footer{
-    font-size: 20px;
+    font-size: 3vh;
     color: rgb(74, 74, 74);
 }
 div.feature{
@@ -165,6 +167,8 @@ div.feature{
         min-width: 100%;
     }
 }
+
+
 
 /* 13'' screen halway point*/
 @media screen and (min-width: 730.5px){
