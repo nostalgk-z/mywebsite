@@ -111,12 +111,19 @@ hr{
     }
 } */
 
+/* IPHONE X portrait
+@media screen and (max-width: 375px) and (max-width: 812px){
+    .About-container{
+        margin-top: -35px;
+    }
+} */
 /* IPHONE X landscape */
 /* @media screen and (max-width: 415px) and (max-height: 750px){
     .About-container{
         margin-top: -108px;
     }
 } */
+
 
 /* IPHONE 6+/7+/8+ portrait */
 @media screen and (max-width: 415px) and (max-height: 750px){
@@ -161,4 +168,11 @@ hr{
 }
 
 
+/* STACK VIEW */
+/* 13'' screen halway point*/
+@media screen and (max-width: 634px){
+    .About-container{
+        margin-top: 40px;
+    }
+}
 
