@@ -34,11 +34,11 @@
 div.header{
     display: inline-block;
     font-size: 10vh;
-    color: rgb(74, 74, 74);
+    color: rgb(26, 26, 26);
 }
 
 div.footer{
-    font-size: 3vh;
+    font-size: 4vh;
     color: rgb(74, 74, 74);
 }
 div.feature{
@@ -151,11 +151,10 @@ div.feature{
 }
 
 /* 13'' screen halway point*/
-@media screen and (max-width: 730px){
+@media screen and (max-width: 634px){
     div.header{
         margin-top: 0px;
         font-size: 8vh;
-        
     }
     div.feature{
         display: block;
@@ -171,9 +170,9 @@ div.feature{
 
 
 /* 13'' screen halway point*/
-@media screen and (min-width: 730.5px){
+@media screen and (min-width: 634.5px){
     div.header{
-        margin-top: 35%;
+        margin-top: 30%;
     }
     div.feature{
         float: left;
