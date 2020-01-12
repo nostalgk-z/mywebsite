@@ -36,9 +36,9 @@ class App extends Component {
         <Container style={{maxWidth: '100%', padding: 0}}>
           
             <NavBar />
-            <Home />
-            <About />
-            <Projects />
+            <Intro />
+            {/* <About />
+            <Projects /> */}
 
         </Container>  
     );

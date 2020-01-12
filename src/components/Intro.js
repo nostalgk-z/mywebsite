@@ -46,7 +46,7 @@ class Intro extends Component{
     render(){
         return(
                 <div>
-                        <div className="Intro">
+                        {/* <div className="Intro">
                             <div className="contnr">
                                 <div className="feature">
                                     <div className="header"> ZANE PARTAIN </div>
@@ -57,26 +57,22 @@ class Intro extends Component{
                                 <div className="my-headshot" >
                                 </div>
                             </div>
-                        </div>
-                    {/* <Container className="Intro" style={{ maxWidth: '100%', overflow: 'hidden' }}>
+                        </div> */}
+                    <Container className="Intro" style={{ maxWidth: '100%' }}>
                     
-                        <Row  style={{ minHeight: '550px', height: "inherit", position: "relative", color: "black", textAlign:"center", margin: 0 }}>
-                            <Col lg="6" md="6" sm="6" style={{height: 'fit-content'}}>
+                        <Row  style={{margin: 0}}>
+                            <Col sm="6" style={{height: 'fit-content'}}>
                                 
                                 <div className="header"> ZANE PARTAIN </div>
-                                <div className="footer" style={{ fontWeight: 500 }}>
+                                <div className="footer" style={{ }}>
                                     I have a love for technology, and a passion to create.
                                 </div>
                             </Col>
                             
-                            <Col className="pic" lg="6" md="6" sm="6" style={{width: '100%'}}>
+                            <Col sm="6" style={{width: '100%'}}>
                                 <div className="my-headshot" ></div>
                             </Col>
                         </Row>
-                        <Row style={{ height: "inherit", position: "relative", color: "black", textAlign:"center", margin: 0 }}>
-
-
-                        </Row> */}
                         {/* <Plx
                             parallaxData={parallaxData2}
                         >
@@ -88,7 +84,7 @@ class Intro extends Component{
                         >
                             <div className="banner-fbox"></div>
                         </Plx> */}
-                    {/* </Container> */}
+                    </Container>
                     
                 </div>
     
