@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import Home from './components/Home';
 import Waypoint from 'react-waypoint';
 import { CSSTransition } from 'react-transition-group';
 import NavBar from './components/NavBar';
@@ -37,8 +36,8 @@ class App extends Component {
           
             <NavBar />
             <Intro />
-            {/* <About />
-            <Projects /> */}
+            <About />
+            {/* <Projects /> */}
 
         </Container>  
     );

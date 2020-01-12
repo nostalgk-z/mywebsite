@@ -5,7 +5,6 @@ import './About.css';
 import Waypoint from 'react-waypoint';
 import { CSSTransition } from 'react-transition-group';
 import { Container, Row, Col } from 'reactstrap';
-import { Z_BLOCK } from 'zlib';
 
 
 /**
@@ -58,10 +57,10 @@ class Intro extends Component{
                                 </div>
                             </div>
                         </div> */}
-                    <Container className="Intro" style={{ maxWidth: '100%' }}>
+                    <Container className="Intro" style={{ maxWidth: '100%', margin:0, padding: 0 }}>
                     
-                        <Row  style={{margin: 0}}>
-                            <Col sm="6" style={{height: 'fit-content'}}>
+                        <Row  style={{}}>
+                            <Col sm="6">
                                 
                                 <div className="header"> ZANE PARTAIN </div>
                                 <div className="footer" style={{ }}>
@@ -69,7 +68,7 @@ class Intro extends Component{
                                 </div>
                             </Col>
                             
-                            <Col sm="6" style={{width: '100%'}}>
+                            <Col sm="6" >
                                 <div className="my-headshot" ></div>
                             </Col>
                         </Row>
