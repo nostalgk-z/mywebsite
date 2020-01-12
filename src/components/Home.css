@@ -6,6 +6,7 @@
    /* background-attachment:absolute; */
     color: white;
     display: block; 
+    margin-top: -100px;
 }
 /* .Anim-home{
     height: 200px; 
@@ -13,3 +14,16 @@
     background-color: blue;
 } */
 
+/* small width of window (less than half screen) */
+@media screen and (max-width: 375px) and (max-height: 815px){
+    .Home{
+       height: 59.5vh;
+    }
+}
+
+/* small width of window (less than half screen) */
+@media screen and (max-width: 375px) and (max-height: 670px){
+    .Home{
+       height: 72.5vh;
+    }
+}
