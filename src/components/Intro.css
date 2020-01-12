@@ -169,9 +169,9 @@ div.feature{
 /* IPHONE X portrait */
 @media screen and (max-width: 375px) and (max-width: 812px){
     div.header{
-        margin-top:10px;
+        margin-top:20px;
         font-size: 7vh;
-        margin-bottom: 20px;
+        margin-bottom: 35px;
     }
     div.footer{        
         font-size: 2.5vh;
@@ -180,7 +180,7 @@ div.feature{
         background-size: 50vh;
         display: block;
         min-width: 100%;
-        margin-top: 170px;
+        margin-top: 210px;
     }
 }
 
