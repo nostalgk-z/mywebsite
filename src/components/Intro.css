@@ -31,7 +31,7 @@
 
 div.header{
     display: inline-block;
-    font-size: 10px;
+    font-size: 10vh;
     color: rgb(74, 74, 74);
 }
 
@@ -40,10 +40,12 @@ div.footer{
     color: rgb(74, 74, 74);
 }
 div.feature{
-    margin-top: 15%;
+    
+    padding: 15px;
     text-align: center;
     float: left;
     width: 50%;
+    position: absolute;
 }
 
 
@@ -149,7 +151,10 @@ div.feature{
 }
 
 /* 13'' screen halway point*/
-@media screen and (max-width: 700px){
+@media screen and (max-width: 725px){
+    div.header{
+        margin-top: 0px;
+    }
     div.feature{
         display: block;
         width: 100%;
@@ -163,6 +168,9 @@ div.feature{
 
 /* 13'' screen halway point*/
 @media screen and (min-width: 700.5px){
+    div.header{
+        margin-top: 22%;
+    }
     div.feature{
         float: left;
     }
