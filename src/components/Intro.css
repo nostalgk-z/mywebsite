@@ -40,8 +40,6 @@ div.footer{
     color: rgb(74, 74, 74);
 }
 div.feature{
-    
-    padding: 15px;
     text-align: center;
     float: left;
     width: 50%;
@@ -151,13 +149,15 @@ div.feature{
 }
 
 /* 13'' screen halway point*/
-@media screen and (max-width: 725px){
+@media screen and (max-width: 730px){
     div.header{
         margin-top: 0px;
+        font-size: 8vh;
+        
     }
     div.feature{
         display: block;
-        width: 100%;
+        width: 95%;
         margin-top: 0px;
     }
     .my-headshot{
@@ -167,9 +167,9 @@ div.feature{
 }
 
 /* 13'' screen halway point*/
-@media screen and (min-width: 700.5px){
+@media screen and (min-width: 730.5px){
     div.header{
-        margin-top: 22%;
+        margin-top: 35%;
     }
     div.feature{
         float: left;
@@ -179,7 +179,12 @@ div.feature{
         min-width: 50%;
     }
 }
-
+/* 13'' screen halway point*/
+@media screen and (min-width: 1024px) and (min-height: 700px){
+    div.header{
+        margin-top: 50%;
+    }
+}
 
 
 /* small width of window (less than half screen) */
