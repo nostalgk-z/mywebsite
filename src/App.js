@@ -32,9 +32,7 @@ class App extends Component {
 
 
     return (
-        <Container style={{maxWidth: '100%', padding: 0}}>
-            
-             
+        <Container  className="App" style={{maxWidth: '100%', padding: 0, backgroundColor: 'tomato'}}>
           {/** for sticky nav bar */}
           <Waypoint
             onEnter={this._showBio.bind(this)}
@@ -42,11 +40,13 @@ class App extends Component {
             bottomOffset='99.9%'
           >
             <div>
-              <NavBar isActive={this.state.isActive}/> 
+              <NavBar isActive={this.state.isActive} /> 
               <Intro />
               <About />
+
             </div>
           </Waypoint>
+          
           
           {/* <Projects /> */}
           
