@@ -2,7 +2,7 @@
   justify-content: center;
   background-image: url(../src/layer-170971.jpg); /*linear-gradient(top, whitesmoke, rgb(53, 177, 227)); */
   background-size: cover;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
   /* display: flex; */
 }
