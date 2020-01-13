@@ -6,7 +6,6 @@ import NavBar from './components/NavBar';
 import About from './components/About';
 import { Container } from 'reactstrap';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Intro from './components/Intro';
 import Projects from './components/Projects';
 

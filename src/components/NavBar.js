@@ -13,6 +13,8 @@ import {
   DropdownItem
 } from 'reactstrap';
 import './NavBar.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 class NavBar extends Component {
   constructor(props) {
@@ -38,7 +40,7 @@ class NavBar extends Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="m-auto" navbar>
                 <NavItem>
-                  <NavLink href="/components/">Components</NavLink>
+                  <NavLink href="/">Components</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
