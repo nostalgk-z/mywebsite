@@ -23,19 +23,20 @@ class NavBar extends Component {
       isOpen: false
     };
   }
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
     });
   }
+
   render() {
     return (
-    
-    <Navbar className="my-navbar"  color="light" light expand="sm" sticky="top">
-            <NavbarBrand href="/">reactstrap</NavbarBrand>
+
+        <Navbar className={"my-navbar--"+this.props.isActive}  light expand="xs" sticky="top">
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
-              <Nav className="ml-auto" navbar>
+              <Nav className="m-auto" navbar>
                 <NavItem>
                   <NavLink href="/components/">Components</NavLink>
                 </NavItem>
@@ -62,6 +63,7 @@ class NavBar extends Component {
               </Nav>
             </Collapse>
           </Navbar>
+    
     );
   }
 }

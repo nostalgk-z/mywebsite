@@ -25,7 +25,7 @@ class App extends Component {
   }
 
   _showBio(){
-    this.setState({isActive: true});
+    this.setState({isActive: !this.state.isActive});
   }
 
   render() {
@@ -33,11 +33,23 @@ class App extends Component {
 
     return (
         <Container style={{maxWidth: '100%', padding: 0}}>
+            
+             
+          {/** for sticky nav bar */}
+          <Waypoint
+            onEnter={this._showBio.bind(this)}
+            onLeave={this._showBio.bind(this)}
+            bottomOffset='99.9%'
+          >
+            <div>
+              <NavBar isActive={this.state.isActive}/> 
+              <Intro />
+              <About />
+            </div>
+          </Waypoint>
           
-            <NavBar />
-            <Intro />
-            <About />
-            {/* <Projects /> */}
+          {/* <Projects /> */}
+          
 
         </Container>  
     );

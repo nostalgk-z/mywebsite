@@ -1,5 +1,5 @@
 .App {
-  background-color: gainsboro;
+  background-color: rgb(220, 220, 220);
   min-height: 100vh;
   height: fit-content;
   display: flex;

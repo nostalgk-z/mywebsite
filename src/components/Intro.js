@@ -60,17 +60,18 @@ class Intro extends Component{
                     <Container className="Intro" style={{ maxWidth: '100%', margin:0, padding: 0 }}>
                     
                         <Row  style={{}}>
-                            <Col sm="6">
+                            <Col>
                                 
                                 <div className="header"> ZANE PARTAIN </div>
+                                <hr style={{width: '35%'}}></hr>
                                 <div className="footer" style={{ }}>
                                     I have a love for technology, and a passion to create.
                                 </div>
                             </Col>
                             
-                            <Col sm="6" >
+                            {/* <Col sm="6" >
                                 <div className="my-headshot" ></div>
-                            </Col>
+                            </Col> */}
                         </Row>
                         {/* <Plx
                             parallaxData={parallaxData2}
