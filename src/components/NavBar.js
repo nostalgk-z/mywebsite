@@ -44,7 +44,7 @@ class NavBar extends Component {
   render() {
     return (
 
-      <Navbar className={"my-navbar--" + this.props.isSticky} light expand="xs" sticky="top">
+      <Navbar className={"my-navbar--" + this.props.isSticky} light expand="xs" sticky="top" >
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="m-auto" navbar>
@@ -71,21 +71,6 @@ class NavBar extends Component {
               </NavLink>
             </NavItem>
 
-            <NavItem>
-              <NavLink>
-                  <Link
-                    onClick={this.props.handleClick.bind(this)}
-                    activeClass="active"
-                    className="projects-link"
-                    to="projects"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                  >
-                    Projects
-                  </Link>
-                </NavLink>
-            </NavItem>
 
             <NavItem>
               <NavLink>
@@ -103,23 +88,22 @@ class NavBar extends Component {
                 </NavLink>
             </NavItem>
 
-            {/* <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-                </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                  </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                  </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                  </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown> */}
+            <NavItem>
+              <NavLink>
+                  <Link
+                    onClick={this.props.handleClick.bind(this)}
+                    activeClass="active"
+                    className="projects-link"
+                    to="projects"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                  >
+                    Projects
+                  </Link>
+                </NavLink>
+            </NavItem>
+           
           </Nav>
         </Collapse>
       </Navbar>

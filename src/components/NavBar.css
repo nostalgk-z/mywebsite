@@ -39,7 +39,7 @@
 
 @media only screen and (max-width: 500px){
     .nav-link{
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 2px;
+        margin-right: 2px;
     }
 }

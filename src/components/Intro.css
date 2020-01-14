@@ -5,6 +5,8 @@
     width: 100%;
     background-color: transparent;
     overflow: hidden;
+    /* background-image: url('../layer-170971.jpg'); linear-gradient(top, whitesmoke, rgb(53, 177, 227)); */
+    background-size: cover;
     /* position: fixed; */
 }
 

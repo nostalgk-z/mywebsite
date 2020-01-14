@@ -5,6 +5,7 @@
     width: 100%;
     max-height: fit-content;
     min-height: 100vh;
+    text-align: center;
     /* height: 100vh; */
     font-size: 12pt;
     /* background-color: rgb(160, 115, 115); */
@@ -22,14 +23,6 @@
     /* padding: 10px; */
     font-size: 35px;
 }
-
-/* fix half way column glitch */
-/* @media (max-width: 768px){
-    .col-sm-6 {
-        flex: 0 0 50%;
-        max-width: 100%;
-    }
-} */
 
 @media only screen and (max-width: 425px){
     .header-text{

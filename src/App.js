@@ -79,7 +79,6 @@ class App extends Component {
           >
             <div>
               <NavBar isSticky={this.state.isSticky} handleClick={this.scrollTo.bind(this)} scrollToTop={this.scrollToTop.bind(this)}/> 
-              
               <Intro />
             
               <Element name="about" className="element">
@@ -87,22 +86,17 @@ class App extends Component {
                 <About />
               </Element>
 
+              <Element name="resume" className="element">
+                <div style={{marginTop: '-55px', height: '55px', width: '100%'}}></div>
+                <Resume />
+              </Element>
+
               <Element name="projects" className="element">
                 <div style={{marginTop: '-50px', height: '50px', width: '100%'}}></div>
                 <Projects />
               </Element>
-
-              <Element name="resume" className="element">
-                <div style={{marginTop: '-50px', height: '50px', width: '100%'}}></div>
-                <Resume />
-              </Element>
             </div>
-          </Waypoint>
-          
-          
-          {/* <Projects /> */}
-          
-
+          </Waypoint>          
         </Container>  
     );
   }

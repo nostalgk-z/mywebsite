@@ -4,6 +4,8 @@ import './About.css';
 import  Waypoint  from 'react-waypoint';
 import { CSSTransition } from 'react-transition-group';
 import { Container ,Row, Col } from 'reactstrap';
+import pdf from './mypdf/ZanePartain_2020.pdf';
+
 
 
 const parallaxData = [
@@ -61,6 +63,7 @@ class About extends Component{
                             <p className="text">
                                 Here is the body of text that will go ahead and tell the world who I am.
                             </p>
+                            <a href={pdf} download> click here for my pdf </a>
                         </Col>
                     </Row>
                 </Container>
