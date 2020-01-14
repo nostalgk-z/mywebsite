@@ -14,6 +14,8 @@ import {
 import Intro from './components/Intro';
 import About from './components/About';
 import NavBar from './components/NavBar';
+import Projects from './components/Projects';
+import Resume from './components/Resume';
 
 
 class App extends Component {
@@ -62,14 +64,13 @@ class App extends Component {
     Events.scrollEvent.remove('end');
   }
 
-  handleClick = (e) =>{
-    console.log(e);
-  }
+
 
   render() {
 
     return (
         <Container  className="App" style={{maxWidth: '100%', padding: 0, backgroundColor: 'tomato'}}>
+          
           {/** for sticky nav bar */}
           <Waypoint
             onEnter={this._showBio.bind(this)}
@@ -77,10 +78,23 @@ class App extends Component {
             bottomOffset='99.9%'
           >
             <div>
-              <NavBar isSticky={this.state.isSticky} handleClick={this.handleClick.bind(this)}/> 
+              <NavBar isSticky={this.state.isSticky} handleClick={this.scrollTo.bind(this)} scrollToTop={this.scrollToTop.bind(this)}/> 
+              
               <Intro />
-              <Element name="test1" className="element">
+            
+              <Element name="about" className="element">
+                <div style={{height: '50px', width: '100%'}}></div>
                 <About />
+              </Element>
+
+              <Element name="projects" className="element">
+                <div style={{marginTop: '-50px', height: '50px', width: '100%'}}></div>
+                <Projects />
+              </Element>
+
+              <Element name="resume" className="element">
+                <div style={{marginTop: '-50px', height: '50px', width: '100%'}}></div>
+                <Resume />
               </Element>
             </div>
           </Waypoint>

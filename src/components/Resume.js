@@ -1,9 +1,6 @@
-import React, {Component} from 'react';
-import Plx from 'react-plx';
+import React, { Component } from 'react';
+import { Col, Container, Row } from 'reactstrap';
 import './About.css';
-import  Waypoint  from 'react-waypoint';
-import { CSSTransition } from 'react-transition-group';
-import { Container ,Row, Col } from 'reactstrap';
 
 
 const parallaxData = [
@@ -31,8 +28,8 @@ const parallaxData = [
         ],
     },
 ];
- 
-class About extends Component{
+
+class Resume extends Component{
     constructor(props){
         super(props);
         this.state={
@@ -54,19 +51,19 @@ class About extends Component{
             <div className="outter-about">
                 <Container className="my-container" style={{ maxWidth: '100%'}}>
                     <Row>
-                        <Col style={{ backgroundColor: 'whitesmoke', height: '100vh'}}>
+                        <Col style={{ backgroundColor: 'yellow', height: '100vh'}}>
                             <div className="header-text">
-                                About <span className="me-text" > Me </span>
+                                Resum&eacute;
                             </div>
                             <p className="text">
-                                Here is the body of text that will go ahead and tell the world who I am.
+                                Here is the body where I will put my resume on display for the entire world.
                             </p>
                         </Col>
                     </Row>
                 </Container>
             </div>
-        )
+        );
     }
 }
 
-export default About;
+export default Resume;

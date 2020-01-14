@@ -1,5 +1,5 @@
 /** TODO :: media screen margin-top adjustments*/
-.About-container{
+.my-container{
     padding-left: 0px;
     padding-right: 0px;
     width: 100%;
@@ -16,8 +16,8 @@
     background-color: red;
 }
 
-.about-text{
-    padding-top: 5%;
+.header-text{
+    padding-top: 6%;
     margin-bottom: 5%;
     /* padding: 10px; */
     font-size: 35px;
@@ -32,8 +32,8 @@
 } */
 
 @media only screen and (max-width: 425px){
-    .about-text{
-        padding-top: 50%;
+    .header-text{
+        padding-top: 35%;
         margin-bottom: 10%;
         /* padding: 10px; */
         font-size: 35px;
@@ -42,3 +42,4 @@
         /* font-size: 15px; */
     }
 }
+

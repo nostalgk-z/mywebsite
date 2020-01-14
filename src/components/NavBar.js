@@ -12,13 +12,13 @@ import {
   DropdownMenu,
   DropdownItem
 } from 'reactstrap';
-import { 
-  Link, 
-  DirectLink, 
-  Element , 
-  Events, 
-  animateScroll as scroll, 
-  scrollSpy, 
+import {
+  Link,
+  DirectLink,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
   scroller,
 } from 'react-scroll';
 import './NavBar.css';
@@ -44,39 +44,86 @@ class NavBar extends Component {
   render() {
     return (
 
-        <Navbar className={"my-navbar--"+this.props.isSticky}  light expand="xs" sticky="top">
-            <NavbarToggler onClick={this.toggle} />
-            <Collapse isOpen={this.state.isOpen} navbar>
-              <Nav className="m-auto" navbar>
-                <NavItem>
-                  <NavLink> 
-                    <Link onClick={this.props.handleClick.bind(this)} activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={500} >Test 1</Link>
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
-                </NavItem>
-                <UncontrolledDropdown nav inNavbar>
-                  <DropdownToggle nav caret>
-                    Options
+      <Navbar className={"my-navbar--" + this.props.isSticky} light expand="xs" sticky="top">
+        <NavbarToggler onClick={this.toggle} />
+        <Collapse isOpen={this.state.isOpen} navbar>
+          <Nav className="m-auto" navbar>
+            
+            <NavItem>
+              <NavLink onClick={this.props.scrollToTop.bind(this)}>
+                Home
+              </NavLink>
+            </NavItem>
+
+            <NavItem>
+              <NavLink>
+                <Link
+                  onClick={this.props.handleClick.bind(this)}
+                  activeClass="active"
+                  className="about-link"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  About
+                </Link>
+              </NavLink>
+            </NavItem>
+
+            <NavItem>
+              <NavLink>
+                  <Link
+                    onClick={this.props.handleClick.bind(this)}
+                    activeClass="active"
+                    className="projects-link"
+                    to="projects"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                  >
+                    Projects
+                  </Link>
+                </NavLink>
+            </NavItem>
+
+            <NavItem>
+              <NavLink>
+                  <Link
+                    onClick={this.props.handleClick.bind(this)}
+                    activeClass="active"
+                    className="resume-link"
+                    to="resume"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                  >
+                    Resume
+                  </Link>
+                </NavLink>
+            </NavItem>
+
+            {/* <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+                Options
                 </DropdownToggle>
-                  <DropdownMenu right>
-                    <DropdownItem>
-                      Option 1
+              <DropdownMenu right>
+                <DropdownItem>
+                  Option 1
                   </DropdownItem>
-                    <DropdownItem>
-                      Option 2
+                <DropdownItem>
+                  Option 2
                   </DropdownItem>
-                    <DropdownItem divider />
-                    <DropdownItem>
-                      Reset
+                <DropdownItem divider />
+                <DropdownItem>
+                  Reset
                   </DropdownItem>
-                  </DropdownMenu>
-                </UncontrolledDropdown>
-              </Nav>
-            </Collapse>
-          </Navbar>
-    
+              </DropdownMenu>
+            </UncontrolledDropdown> */}
+          </Nav>
+        </Collapse>
+      </Navbar>
+
     );
   }
 }
