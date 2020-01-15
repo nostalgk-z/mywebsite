@@ -24,6 +24,32 @@
     font-size: 35px;
 }
 
+
+.resume-row{
+    width: 100%;
+    max-height: contain;
+    overflow: hidden;
+    min-height: 50vh;
+    background-color: white;
+    padding-bottom: 3.5%;
+    border-bottom: 1px solid #E8E8E8;
+}
+.resume-col{
+    background-color: whitesmoke; 
+    min-height: 55vh;
+    margin: 0px auto;
+    max-height:fit-content; 
+    padding-top: 3%; 
+}
+.resume-col.end{
+    padding-bottom: 3%; 
+}
+.resume-row.end{
+    border-bottom: 0px solid #E8E8E8;
+    padding-bottom: 0%;
+}
+
+
 @media only screen and (max-width: 425px){
     .header-text{
         padding-top: 35%;
@@ -36,3 +62,15 @@
     }
 }
 
+
+@media screen and (max-width: 768px){
+
+    .col-sm-4 {
+        flex: 0 0 50%;
+        min-width: 100%;
+    }
+    .col-sm-8 {
+        flex: 0 0 50%;
+        min-width: 100%;
+    }
+} 
