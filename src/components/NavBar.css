@@ -43,3 +43,10 @@
         margin-right: 2px;
     }
 }
+
+@media only screen and (max-width: 350px){
+    .nav-link{
+        margin-left: -1px;
+        margin-right: -1px;
+    }
+}

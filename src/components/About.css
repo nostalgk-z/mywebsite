@@ -14,7 +14,7 @@
 
 .outter-about{
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .header-text{
@@ -29,23 +29,26 @@
     width: 100%;
     max-height: contain;
     overflow: hidden;
-    min-height: 50vh;
-    background-color: white;
+    /* min-height: 50vh; */
+    /* background-color: white; */
     padding-bottom: 3.5%;
-    border-bottom: 1px solid #E8E8E8;
+    border-bottom: 2px solid rgb(213, 212, 212);
 }
 .resume-col{
+    overflow: hidden;
     background-color: whitesmoke; 
-    min-height: 55vh;
-    margin: 0px auto;
+    /* border: 1px solid transparent; */
+    /* min-height: 55vh; */
+    margin-top: -1px;
     max-height:fit-content; 
-    padding-top: 3%; 
+    padding-top: 3.5%; 
+    
 }
 .resume-col.end{
     padding-bottom: 3%; 
 }
 .resume-row.end{
-    border-bottom: 0px solid #E8E8E8;
+    border-bottom: 0px solid rgb(213, 212, 212);
     padding-bottom: 0%;
 }
 
@@ -64,12 +67,11 @@
 
 
 @media screen and (max-width: 768px){
-
-    .col-sm-4 {
+    .col-sm-3 {
         flex: 0 0 50%;
         min-width: 100%;
     }
-    .col-sm-8 {
+    .col-sm-9 {
         flex: 0 0 50%;
         min-width: 100%;
     }

@@ -51,46 +51,61 @@ class Resume extends Component {
 
             <div className="outter-about">
                 <Container className="my-container" style={{ maxWidth: '100%' }}>
+                    {/** EDUCATION ROW */}
                     <Row >
                         <Col className="resume-col" >
                             <Container>
                                 <div className="resume-row" >
-                                    <Col sm='4' style={{backgroundColor: 'yellow', minHeight: 'contain'}}>
+                                    <Col sm='3' style={{backgroundColor: 'yellow'}}>
                                         <div style={{height: 100, width: 100}}>
 
                                         </div>
                                     </Col>
-                                    <Col sm='8' style={{backgroundColor: 'orange', minHeight: 'contain'}}>
-                                        <div style={{height: 500, width: 100}}>
+                                    <Col sm='9' style={{backgroundColor: 'orange'}}>
+                                        <div style={{height: 300, width: 100}}>
 
                                         </div>
                                     </Col>
-                                    {/* <div style={{width: '100%', height: '400px', backgroundColor: 'blue'}}>
-                                    </div> */}
                                 </div>
                             </Container>
                         </Col>
                     </Row>
 
+                    {/** EXPERIENCE ROW */}
                     <Row >
                         <Col className="resume-col" >
                             <Container>
                                 <div className="resume-row" >
-                                    <div style={{width: '100%', height: '400px', backgroundColor: 'blue'}}>
+                                    <Col sm='3' style={{backgroundColor: 'yellow'}}>
+                                        <div style={{height: 100, width: 100}}>
 
-                                    </div>
+                                        </div>
+                                    </Col>
+                                    <Col sm='9' style={{backgroundColor: 'orange'}}>
+                                        <div style={{height: 300, width: 100}}>
+
+                                        </div>
+                                    </Col>
                                 </div>
                             </Container>
                         </Col>
                     </Row>
                     
+                    {/** SKILLS ROW */}
                     <Row>
                         <Col className="resume-col end" >
                             <Container >
                                 <div className="resume-row end" >
-                                    <div style={{width: '100%', height: '400px', backgroundColor: 'blue'}}>
+                                    <Col sm='3' style={{backgroundColor: 'yellow'}}>
+                                        <div style={{height: 100, width: 100}}>
 
-                                    </div>
+                                        </div>
+                                    </Col>
+                                    <Col sm='9' style={{backgroundColor: 'orange'}}>
+                                        <div style={{height: 300, width: 100}}>
+
+                                        </div>
+                                    </Col>
                                 </div>
                             </Container>
                         </Col>
