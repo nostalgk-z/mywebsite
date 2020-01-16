@@ -79,9 +79,13 @@
 }
 .resume-body-subscript{
     margin-top: 2px;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 18px;
 
+}
+.resume-body-text{
+    margin-bottom: 30px;
+    text-align: left;
 }
 /* End resume text and info. */
 
@@ -92,9 +96,6 @@
         margin-bottom: 10%;
         /* padding: 10px; */
         font-size: 35px;
-    }
-    .text{
-        /* font-size: 15px; */
     }
 }
 

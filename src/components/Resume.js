@@ -71,7 +71,7 @@ class Resume extends Component {
                                             <div className="resume-body-subscript">
                                                 Bachelor of Science in Comupter Science | Graduation May, 2020
                                             </div>
-                                            <p>
+                                            <p className="resume-body-text">
                                                 Body of text that I will use for a brief description of my journey at WSU. It will
                                                 also cover the key concepts and techniques I learned to be a great software engineer.
                                             </p>
@@ -94,9 +94,49 @@ class Resume extends Component {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col sm='9' style={{backgroundColor: 'orange'}}>
-                                        <div style={{height: 300, width: 100}}>
+                                    <Col sm='9' style={{backgroundColor: 'transparent'}}>
+                                        <div className="resume-body" >
+                                            {/** Front-End Developer */}
+                                            <div className="resume-body-title">
+                                                Front-End Developer 
+                                            </div>
+                                            <div className="resume-body-subscript">
+                                                Blue-Path.org | October 2019 - Current
+                                            </div>
+                                            <p className="resume-body-text">
+                                                <ul>
+                                                    <li>
+                                                        Build, test, and deploy a mobile app on both iOS and Android using React, Redux, and Apache Cordova.
+                                                    </li>
+                                                    <li>
+                                                        Being one of two developers on the project I am solely responsible for documentation,
+                                                        planning, prioritizing tasks, meeting deadlines, and managing the project.
+                                                    </li>
+                                                    <li>
+                                                        Gained knowledge and tools include React, Redux, Apache Cordova, GitLab, and OAuth.
+                                                    </li>
+                                                </ul>
+                                            </p>
 
+                                            {/** Software QA Intern */}
+                                            <div className="resume-body-title">
+                                                Software QA Intern
+                                            </div>
+                                            <div className="resume-body-subscript">
+                                                METER Group Inc | May 2019 – October 2019
+                                            </div>
+                                            <p className="resume-body-text">
+                                                <ul>
+                                                    <li>
+                                                        Developed automated testing framework that utilizes headless drivers and supports parallel
+                                                        testing with Python, Pytest, Selenium, Paramiko, and Django.
+                                                    </li>
+                                                    <li>
+                                                        Gained knowledge and tools include Python, Pytest, Paramiko, Database Architecture, 
+                                                        Regression Testing, test automation, issue documentation, SSHClient, Spira Test, and GitLab.
+                                                    </li>
+                                                </ul>
+                                            </p>
                                         </div>
                                     </Col>
                                 </div>
