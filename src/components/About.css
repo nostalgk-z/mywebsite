@@ -113,11 +113,15 @@
         padding: 25px;
     }
     .resume-title-label{
+        font-size: 18px;
         display: block;
         margin: auto;
     }
     .resume-body{
         text-align: center;
+    }
+    .resume-body-title{
+        font-size: 26px;
     }
 } 
 
