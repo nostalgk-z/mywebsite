@@ -63,7 +63,7 @@ class Resume extends Component {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col sm='9' style={{backgroundColor: 'orange'}}>
+                                    <Col sm='9' style={{backgroundColor: 'transparent'}}>
                                         <div className="resume-body" >
                                             <div className="resume-body-title">
                                                 Washington State University
@@ -71,6 +71,10 @@ class Resume extends Component {
                                             <div className="resume-body-subscript">
                                                 Bachelor of Science in Comupter Science | Graduation May, 2020
                                             </div>
+                                            <p>
+                                                Body of text that I will use for a brief description of my journey at WSU. It will
+                                                also cover the key concepts and techniques I learned to be a great software engineer.
+                                            </p>
                                         </div>
                                     </Col>
                                 </div>
