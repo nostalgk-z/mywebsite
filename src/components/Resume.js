@@ -56,14 +56,21 @@ class Resume extends Component {
                         <Col className="resume-col" >
                             <Container>
                                 <div className="resume-row" >
-                                    <Col sm='3' style={{backgroundColor: 'yellow'}}>
-                                        <div style={{height: 100, width: 100}}>
-
+                                    <Col sm='3' >
+                                        <div className="resume-title">
+                                            <div className="resume-title-label">
+                                                EDUCATION
+                                            </div>
                                         </div>
                                     </Col>
                                     <Col sm='9' style={{backgroundColor: 'orange'}}>
-                                        <div style={{height: 300, width: 100}}>
-
+                                        <div className="resume-body" >
+                                            <div className="resume-body-title">
+                                                Washington State University
+                                            </div>
+                                            <div className="resume-body-subscript">
+                                                Bachelor of Science in Comupter Science | Graduation May, 2020
+                                            </div>
                                         </div>
                                     </Col>
                                 </div>
@@ -76,9 +83,11 @@ class Resume extends Component {
                         <Col className="resume-col" >
                             <Container>
                                 <div className="resume-row" >
-                                    <Col sm='3' style={{backgroundColor: 'yellow'}}>
-                                        <div style={{height: 100, width: 100}}>
-
+                                    <Col sm='3'>
+                                        <div className="resume-title">
+                                            <div className="resume-title-label">
+                                                EXPERIENCE
+                                            </div>
                                         </div>
                                     </Col>
                                     <Col sm='9' style={{backgroundColor: 'orange'}}>
@@ -96,9 +105,11 @@ class Resume extends Component {
                         <Col className="resume-col end" >
                             <Container >
                                 <div className="resume-row end" >
-                                    <Col sm='3' style={{backgroundColor: 'yellow'}}>
-                                        <div style={{height: 100, width: 100}}>
-
+                                    <Col sm='3'>
+                                        <div className="resume-title">
+                                            <div className="resume-title-label">
+                                                SKILLS
+                                            </div>
                                         </div>
                                     </Col>
                                     <Col sm='9' style={{backgroundColor: 'orange'}}>

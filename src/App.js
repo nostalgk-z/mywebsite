@@ -67,7 +67,6 @@ class App extends Component {
 
 
   render() {
-
     return (
         <Container  className="App" style={{maxWidth: '100%', padding: 0, backgroundColor: 'tomato'}}>
           

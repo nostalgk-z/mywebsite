@@ -25,6 +25,7 @@
 }
 
 
+/* Start all of the resume containers*/
 .resume-row{
     width: 100%;
     max-height: contain;
@@ -51,6 +52,35 @@
     border-bottom: 0px solid rgb(213, 212, 212);
     padding-bottom: 0%;
 }
+/* End resume containers */
+
+
+/* Start actual resume text and info. */
+.resume-title{
+    min-height: fit-content;
+    width: 100%;
+    border-bottom: rosybrown;
+}
+.resume-title-label{
+    font-size: 20px;
+    border-bottom: 2px solid #FB6107;
+    padding-bottom: 3px;
+    max-width: fit-content;
+}
+.resume-body{
+    background-color: lavender;
+    min-height: fit-content;
+    text-align: left;
+    width: 100%
+}
+.resume-body-title{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.resume-body-subscript{
+    font-size: 18px;
+}
+/* End resume text and info. */
 
 
 @media only screen and (max-width: 425px){
@@ -75,4 +105,26 @@
         flex: 0 0 50%;
         min-width: 100%;
     }
+    .resume-title{
+        padding: 25px;
+    }
+    .resume-title-label{
+        display: block;
+        margin: auto;
+    }
+    .resume-body{
+        text-align: center;
+    }
 } 
+
+@media screen and (min-width: 1280px){
+    .resume-title-label{
+        font-size: 22px;
+    }
+}
+
+/* @media screen and (max-width: 768px){
+    .resume-title-label{
+        font-size: 25px;
+    }
+} */
