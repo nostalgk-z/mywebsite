@@ -3,7 +3,7 @@ import Plx from 'react-plx';
 import './About.css';
 import  Waypoint  from 'react-waypoint';
 import { CSSTransition } from 'react-transition-group';
-import { Container ,Row, Col } from 'reactstrap';
+import { Container ,Row, Col, Button } from 'reactstrap';
 import pdf from './mypdf/ZanePartain_2020.pdf';
 
 
@@ -57,13 +57,20 @@ class About extends Component{
                 <Container className="my-container" style={{ maxWidth: '100%'}}>
                     <Row>
                         <Col style={{ backgroundColor: '#2B2B2B', height: '85vh'}}>
-                            <div className="header-text">
-                                About <span className="me-text" > Me </span>
-                            </div>
-                            <p className="text">
-                                Here is the body of text that will go ahead and tell the world who I am.
-                            </p>
-                            <a href={pdf} download> click here for my pdf </a>
+                            <Container>
+                                <div className="header-text">
+                                    About <span className="me-text" > Me </span>
+                                </div>
+                                <p className="text">
+                                    Here is the body of text that will go ahead and tell the world who I am.
+                                </p>
+
+                                <a href={pdf} download>  
+                                    <Button color="info" className="download-link">
+                                        <div className="icon"></div> Download Resume
+                                    </Button>
+                                </a>
+                            </Container>
                         </Col>
                     </Row>
                 </Container>

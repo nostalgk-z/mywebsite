@@ -125,6 +125,15 @@
     }
 } 
 
+
+.download-link.btn.btn-info{
+}
+.download-link.btn.btn-info:hover{
+    color: rgb(15, 123, 162);
+    background-color: rgb(237, 237, 237);
+    border-color: transparent;
+}
+
 /* @media screen and (min-width: 1280px){
     .resume-title-label{
         font-size: 20px;
