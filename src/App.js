@@ -68,7 +68,7 @@ class App extends Component {
 
   render() {
     return (
-        <Container  className="App" style={{maxWidth: '100%', padding: 0, backgroundColor: 'tomato'}}>
+        <Container  className="App" style={{maxWidth: '100%', padding: 0}}>
           
           {/** for sticky nav bar */}
           <Waypoint
@@ -97,6 +97,7 @@ class App extends Component {
             </div>
           </Waypoint>          
         </Container>  
+
     );
   }
 }

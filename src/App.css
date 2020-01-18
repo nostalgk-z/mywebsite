@@ -1,15 +1,16 @@
 .App{
   justify-content: center;
-  background-image: url(../src/layer-170971.jpg); /*linear-gradient(top, whitesmoke, rgb(53, 177, 227)); */
+  background-image: url(./desolate.svg); /*linear-gradient(left, #4b79a1,#283e51 );*/
+  background-attachment: fixed;
   background-size: cover;
-  background-position: top center;
+  background-position:center;
   text-align: center;
   background-repeat: no-repeat;
+  background-color: rgb(232, 209, 209); /* rgb(71, 123, 132); */
+  background-blend-mode: color-burn;
   /* min-height: fit-content; */
   /* display: flex; */
 }
-
-
 
 
 @keyframes App-logo-spin {
