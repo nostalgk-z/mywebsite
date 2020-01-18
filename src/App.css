@@ -17,13 +17,28 @@
   height: 32px;
   position: absolute;
   filter: brightness(2.5);
-  background-image: url(./d_arrow.svg);
+  background-image: url(./arrow_d.svg);
   background-size: cover;
   top: 85%;
   left: 50%; 
   margin-left: -16px;
 }
 .down-icon:hover{
+  filter: brightness(3.0);
+}
+
+.up-icon{
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  filter: brightness(2.5);
+  background-image: url(./arrow_u.svg);
+  background-size: cover;
+  margin-top: -22px;
+  left: 50%; 
+  margin-left: -22px;
+}
+.up-icon:hover{
   filter: brightness(3.0);
 }
 

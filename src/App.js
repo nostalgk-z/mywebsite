@@ -15,7 +15,6 @@ import Intro from './components/Intro';
 import About from './components/About';
 import NavBar from './components/NavBar';
 import Projects from './components/Projects';
-import d_arrow from './d_arrow.svg';
 import Resume from './components/Resume';
 
 
@@ -81,6 +80,7 @@ class App extends Component {
               <NavBar isSticky={this.state.isSticky} handleClick={this.scrollTo.bind(this)} scrollToTop={this.scrollToTop.bind(this)}/> 
               <Intro />
               
+              {/** Down Icon to smooth scroll to About section */}
               <Link
                 onClick={this.scrollTo.bind(this)}
                 activeClass="active"
@@ -90,9 +90,7 @@ class App extends Component {
                 smooth={true}
                 duration={500}
               >
-                {/* <img src={d_arrow} alt="down arrow" /> */}
               </Link>
-              
             
               <Element name="about" className="element">
                 <div style={{height: '50px', width: '100%'}}></div>
@@ -108,6 +106,13 @@ class App extends Component {
                 <div style={{marginTop: '-50px', height: '50px', width: '100%'}}></div>
                 <Projects />
               </Element>
+
+              <div style={{width: '100%', height: '100px', backgroundColor:'transparent'}}>
+                {/** Up Icon to smooth scroll to About section */}
+                <div className="up-icon" onClick={this.scrollToTop.bind(this)}>
+                </div>
+              </div>
+          
             </div>
           </Waypoint>          
         </Container>  
