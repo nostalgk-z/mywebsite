@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col, Container, Row } from 'reactstrap';
+import { Col, Container, Row, Progress } from 'reactstrap';
 import './About.css';
 
 
@@ -156,9 +156,16 @@ class Resume extends Component {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col sm='9' style={{backgroundColor: 'orange'}}>
-                                        <div style={{height: 300, width: 100}}>
-
+                                    <Col sm='9' style={{backgroundColor: 'transparent'}}>
+                                        <div className="resume-body" >
+                                            <div style={{textAlign: 'left'}}>Python</div>
+                                            <Progress value="70"> 75% </Progress>
+                                            <div style={{textAlign: 'left'}}>React.js</div>
+                                            <Progress value="80"> 80% </Progress>
+                                            <div style={{textAlign: 'left'}}>Node.js</div>
+                                            <Progress value="70"> 70% </Progress>
+                                            <div style={{textAlign: 'left'}}>CSS</div>
+                                            <Progress value="85"> 85% </Progress>
                                         </div>
                                     </Col>
                                 </div>
