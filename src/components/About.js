@@ -58,34 +58,39 @@ class About extends Component{
                 <Container className="my-container" style={{ maxWidth: '100%'}}>
                     <Row>
                         <Col style={{ backgroundColor: '#2B2B2B', minHeight: '90vh', maxHeight: 'fit-content'}}>
-                            <Container style={{maxWidth: '60%'}}>
-                                <Row>
-                                    {/** About Text */}
-                                    <div className="header-text">
-                                        About <span className="me-text" > Me </span>
-                                    </div>
-                                    <span className="text">
-                                        I am a Seattle based Software Engineer, and received my BS in Computer Science at
-                                        Washington State University in May, 2020. I have always had a knack for creating
-                                        simple solutions, and an eye for detail. With my love for technology, knowledge of 
-                                        coding, and entreprenurial spirit I have an interest in full-stack development. I 
-                                        am always having new ideas or thinking of new ways to do things, and love having the 
-                                        ability to build solutions from scratch. I am a self-starter who loves to tackle challenges 
-                                        head on. Whether I am in the gym or in the office I am always focused on the task at hand 
-                                        and determined to get results.
-                                    </span>
-                                </Row>
-
-                                {/** Download Resume Button */}
-                                <a href={pdf} download>  
-                                    <Button color="danger" className="download-link">
-                                        <div className="dwnld-icon">
+                            <div className="portrait">
+                            </div>
+                            <Container  >
+                                <Col>
+                                    <Row className="about-cntnr" style={{marginLeft: '0px', marginRight: '0px'}}>
+                                        {/** About Text */}
+                                        <div className="header-text">
+                                            About <span className="me-text" > Me </span>
                                         </div>
-                                        <span style={{marginLeft: '5px', marginRight: '5px', fontWeight: 500 }}>
-                                            Download Resume
+                                        <span className="text">
+                                            I am a Seattle based Software Engineer, and received my BS in Computer Science at
+                                            Washington State University in May, 2020. I have always had a knack for creating
+                                            simple solutions, and an eye for detail. With my love for technology, knowledge of 
+                                            coding, and entreprenurial spirit I have an interest in full-stack development. I 
+                                            am always having new ideas or thinking of new ways to do things, and love having the 
+                                            ability to build solutions from scratch. I am a self-starter who loves to tackle challenges 
+                                            head on. Whether I am in the gym or in the office I am always focused on the task at hand 
+                                            and determined to get results.
                                         </span>
-                                    </Button>
-                                </a>
+                                        {/** Download Resume Button */}
+                                        <a href={pdf} download>  
+                                            <Button color="danger" className="download-link">
+                                                <div className="dwnld-icon">
+                                                </div>
+                                                <span style={{marginLeft: '5px', marginRight: '5px', fontWeight: 500 }}>
+                                                    Download Resume
+                                                </span>
+                                            </Button>
+                                        </a>
+                                    </Row>
+                                    
+                                    
+                                </Col>
                             </Container>
                         </Col>
                     </Row>

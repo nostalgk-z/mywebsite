@@ -17,10 +17,12 @@
 
 .header-text{
     color: whitesmoke;
-    padding-top: 6%;
+    /* padding-top: 25px; */
+    /* padding-top: 6%; */
     /* margin-bottom: 5%; */
     /* padding: 10px; */
     font-size: 35px;
+
 }
 
 .text{
@@ -33,6 +35,23 @@
     color: rgb(183, 96, 96);
 
 }
+.portrait{
+    height: 300px;
+    width: 250px;
+    top: 50%;
+    left: 82%;
+    margin-top: -150px;
+    margin-left: -125px;
+    position: absolute;
+    background-color: white;
+}
+
+.about-cntnr{
+    margin-top: 25px;
+    max-width: 70%; 
+    margin-bottom: 35px;
+}
+
 
 /* Start all of the resume containers*/
 .resume-row{
@@ -101,15 +120,31 @@
 /* End resume text and info. */
 
 
+@media screen and (min-width: 780px){
+    .header-text{
+        padding-top: 5%;
+    }
+}
+
 @media only screen and (max-width: 425px){
     .header-text{
-        padding-top: 35%;
-        margin-bottom: 10%;
+        margin-bottom: 10px;
         /* padding: 10px; */
         font-size: 35px;
     }
 }
 
+@media screen and (max-width: 870px){
+    .portrait{
+        display: none;
+    }
+    .about-cntnr{
+        max-width: 100%; 
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+}
 
 @media screen and (max-width: 768px){
     .col-sm-3 {
@@ -135,6 +170,7 @@
         font-size: 26px;
     }
 } 
+
 
 .dwnld-icon{
     height: 15px;
