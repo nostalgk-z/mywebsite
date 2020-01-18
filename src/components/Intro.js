@@ -71,7 +71,6 @@ class Intro extends Component {
                     </Row>
                 </Container>
             </div>
-
         );
     }
 }

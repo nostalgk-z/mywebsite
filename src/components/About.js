@@ -57,15 +57,26 @@ class About extends Component{
             <div className="outter-about">
                 <Container className="my-container" style={{ maxWidth: '100%'}}>
                     <Row>
-                        <Col style={{ backgroundColor: '#2B2B2B', height: '90vh'}}>
-                            <Container>
-                                <div className="header-text">
-                                    About <span className="me-text" > Me </span>
-                                </div>
-                                <p className="text">
-                                    Here is the body of text that will go ahead and tell the world who I am.
-                                </p>
+                        <Col style={{ backgroundColor: '#2B2B2B', minHeight: '90vh', maxHeight: 'fit-content'}}>
+                            <Container style={{maxWidth: '60%'}}>
+                                <Row>
+                                    {/** About Text */}
+                                    <div className="header-text">
+                                        About <span className="me-text" > Me </span>
+                                    </div>
+                                    <span className="text">
+                                        I am a Seattle based Software Engineer, and received my BS in Computer Science at
+                                        Washington State University in May, 2020. I have always had a knack for creating
+                                        simple solutions, and an eye for detail. With my love for technology, knowledge of 
+                                        coding, and entreprenurial spirit I have an interest in full-stack development. I 
+                                        am always having new ideas or thinking of new ways to do things, and love having the 
+                                        ability to build solutions from scratch. I am a self-starter who loves to tackle challenges 
+                                        head on. Whether I am in the gym or in the office I am always focused on the task at hand 
+                                        and determined to get results.
+                                    </span>
+                                </Row>
 
+                                {/** Download Resume Button */}
                                 <a href={pdf} download>  
                                     <Button color="danger" className="download-link">
                                         <div className="dwnld-icon">

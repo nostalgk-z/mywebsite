@@ -16,12 +16,23 @@
 }
 
 .header-text{
+    color: whitesmoke;
     padding-top: 6%;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
     /* padding: 10px; */
     font-size: 35px;
 }
 
+.text{
+    color: rgb(216, 215, 215);
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.me-text{
+    color: rgb(183, 96, 96);
+
+}
 
 /* Start all of the resume containers*/
 .resume-row{
