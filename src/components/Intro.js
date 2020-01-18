@@ -66,7 +66,7 @@ class Intro extends Component {
                             <hr style={{ width: '35%' }}></hr>
                             <div className="footer" style={{}}>
                                 I have a love for technology, and a passion to create.
-                                </div>
+                            </div>
                         </Col>
                     </Row>
                 </Container>

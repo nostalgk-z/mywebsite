@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Waypoint from 'react-waypoint';
-import { Container } from 'reactstrap';
+import { Container, Row } from 'reactstrap';
 import { 
   Link, 
   DirectLink, 
@@ -15,6 +15,7 @@ import Intro from './components/Intro';
 import About from './components/About';
 import NavBar from './components/NavBar';
 import Projects from './components/Projects';
+import d_arrow from './d_arrow.svg';
 import Resume from './components/Resume';
 
 
@@ -79,6 +80,19 @@ class App extends Component {
             <div>
               <NavBar isSticky={this.state.isSticky} handleClick={this.scrollTo.bind(this)} scrollToTop={this.scrollToTop.bind(this)}/> 
               <Intro />
+              
+              <Link
+                onClick={this.scrollTo.bind(this)}
+                activeClass="active"
+                className="down-icon"
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                {/* <img src={d_arrow} alt="down arrow" /> */}
+              </Link>
+              
             
               <Element name="about" className="element">
                 <div style={{height: '50px', width: '100%'}}></div>

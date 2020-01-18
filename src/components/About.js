@@ -67,7 +67,7 @@ class About extends Component{
 
                                 <a href={pdf} download>  
                                     <Button color="info" className="download-link">
-                                        <div className="icon"></div> Download Resume
+                                        Download Resume
                                     </Button>
                                 </a>
                             </Container>
