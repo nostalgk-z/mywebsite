@@ -5,6 +5,7 @@ import  Waypoint  from 'react-waypoint';
 import { CSSTransition } from 'react-transition-group';
 import { Container ,Row, Col, Button } from 'reactstrap';
 import pdf from './mypdf/ZanePartain_2020.pdf';
+import dwnldIcon from '../arrow_dwnld.svg';
 
 
 
@@ -66,8 +67,12 @@ class About extends Component{
                                 </p>
 
                                 <a href={pdf} download>  
-                                    <Button color="info" className="download-link">
-                                        Download Resume
+                                    <Button color="danger" className="download-link">
+                                        <div className="dwnld-icon">
+                                        </div>
+                                        <span style={{marginLeft: '5px', marginRight: '5px', fontWeight: 500 }}>
+                                            Download Resume
+                                        </span>
                                     </Button>
                                 </a>
                             </Container>

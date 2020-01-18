@@ -125,13 +125,26 @@
     }
 } 
 
-
-.download-link.btn.btn-info{
-    /*styles for dwnld resume btn*/
+.dwnld-icon{
+    height: 15px;
+    width: 15px;
+    background-image: url(../arrow_dwnld.svg);
+    background-size: cover;
+    display: inline-block;
+    margin: 2px 5px -0.5px 5px;
 }
-.download-link.btn.btn-info:hover{
-    color: rgb(15, 123, 162);
+.download-link.btn.btn-danger{
+    /*styles for dwnld resume btn*/
+    padding: 5px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: #B46A83;
+    border: 1px solid #B46A83;
+    /* color: rgb(206, 45, 45); */
+}
+.download-link.btn.btn-danger:hover{
     background-color: rgb(237, 237, 237);
+    color: #B46A83;
     border-color: transparent;
 }
 
