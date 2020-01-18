@@ -57,7 +57,7 @@ class About extends Component{
             <div className="outter-about">
                 <Container className="my-container" style={{ maxWidth: '100%'}}>
                     <Row>
-                        <Col style={{ backgroundColor: '#2B2B2B', minHeight: '90vh', maxHeight: 'fit-content'}}>
+                        <Col style={{ backgroundColor: '#2B2B2B', minHeight: 'fit-content', maxHeight: 'fit-content'}}>
                             <div className="portrait">
                             </div>
                             <Container  >
