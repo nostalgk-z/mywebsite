@@ -93,17 +93,17 @@ class App extends Component {
               </Link>
             
               <Element name="about" className="element">
-                <div style={{height: '50px', width: '100%'}}></div>
+                <div style={{height: '57px', width: '100%'}}></div>
                 <About />
               </Element>
 
               <Element name="resume" className="element">
-                <div style={{marginTop: '-55px', height: '55px', width: '100%'}}></div>
+                <div style={{marginTop: '-57px', height: '57px', width: '100%'}}></div>
                 <Resume />
               </Element>
 
               <Element name="projects" className="element">
-                <div style={{marginTop: '-50px', height: '50px', width: '100%'}}></div>
+                <div style={{marginTop: '-57px', height: '57px', width: '100%'}}></div>
                 <Projects />
               </Element>
 

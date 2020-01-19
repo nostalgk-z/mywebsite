@@ -149,6 +149,7 @@ class Resume extends Component {
                         <Col className="resume-col end" >
                             <Container >
                                 <div className="resume-row end" >
+                                    
                                     <Col sm='3'>
                                         <div className="resume-title">
                                             <div className="resume-title-label">
@@ -156,16 +157,29 @@ class Resume extends Component {
                                             </div>
                                         </div>
                                     </Col>
+
                                     <Col sm='9' style={{backgroundColor: 'transparent'}}>
                                         <div className="resume-body" >
-                                            <div style={{textAlign: 'left'}}>Python</div>
-                                            <Progress value="70"> 75% </Progress>
-                                            <div style={{textAlign: 'left'}}>React.js</div>
-                                            <Progress value="80"> 80% </Progress>
-                                            <div style={{textAlign: 'left'}}>Node.js</div>
+                                            <div style={{textAlign: 'left', fontWeight: 600}}>Python</div>
+                                            <Progress className="prog-bar" value="75"> 75% </Progress>
+
+                                            <div style={{textAlign: 'left', fontWeight: 600}}>C#</div>
                                             <Progress value="70"> 70% </Progress>
-                                            <div style={{textAlign: 'left'}}>CSS</div>
-                                            <Progress value="85"> 85% </Progress>
+
+                                            <div style={{textAlign: 'left', fontWeight: 600}}>ReactJS</div>
+                                            <Progress value="80"> 80% </Progress>
+
+                                            <div style={{textAlign: 'left', fontWeight: 600}}>NodeJS</div>
+                                            <Progress value="60"> 60% </Progress>
+
+                                            <div style={{textAlign: 'left', fontWeight: 600}}>MongoDB</div>
+                                            <Progress value="60"> 60% </Progress>
+
+                                            <div style={{textAlign: 'left', fontWeight: 600}}>PostgreSQL</div>
+                                            <Progress value="70"> 70% </Progress>
+
+                                            <div style={{textAlign: 'left', fontWeight: 600}}>CSS</div>
+                                            <Progress value="90"> 90% </Progress>
                                         </div>
                                     </Col>
                                 </div>

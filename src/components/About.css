@@ -7,6 +7,7 @@
     min-height: fit-content;
     text-align: center;
     font-size: 12pt;
+    /* margin-top: -30px; */
     color: black;
 }
 
@@ -216,4 +217,12 @@
     .resume-row{
         padding-bottom: 50px;   
     }
+}
+
+
+div.progress{
+    height: 30px;
+}
+div.progress-bar {
+    background-color: rgb(167, 35, 35);
 }
