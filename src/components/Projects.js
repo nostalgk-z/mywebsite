@@ -54,13 +54,55 @@ class Projects extends Component{
             <div className="outter-about">
                 <Container className="my-container" style={{ maxWidth: '100%'}}>
                     <Row>
-                        <Col style={{ backgroundColor: 'salmon', height: '100vh'}}>
-                            <div className="header-text">
-                                Projects
-                            </div>
-                            <p className="text">
-                                Here is the body of text that will go ahead and show the world some of my projects.
-                            </p>
+                        <Col className="project-col">
+                            
+                            <Container style={{ margin: 'auto'}}>
+                                <div className="header-text">
+                                    Projects
+                                </div>
+                               
+                                {/** left-side column */}
+                                <Row className="project-row">
+                                    
+                                    <Col sm='4' style={{maxWidth:'100%'}}>
+                                        <div className="proj-thumbnail">
+
+                                        </div>
+                                    </Col>
+                                    <Col sm='4' style={{maxWidth:'100%'}}>
+                                        <div className="proj-thumbnail">
+
+                                        </div>
+                                    </Col>
+                                    <Col sm='4' style={{maxWidth:'100%'}}>
+                                        <div className="proj-thumbnail">
+
+                                        </div>
+                                    </Col>
+                                    <Col sm='4' style={{maxWidth:'100%'}}>
+                                        <div className="proj-thumbnail">
+
+                                        </div>
+                                    </Col>
+                                </Row>  
+
+                                {/* <Row>
+                                    <Col sm='8'>
+                                        <div className="resume-body" style={{backgroundColor: 'blue'}}>
+                                            <div style={{height: '200px', width: '100%'}}>
+
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col sm='4' style={{maxWidth:'100%'}}>
+                                        <div style={{ display:'block',margin:'auto', height: '200px', width: '200px', backgroundColor: 'orange'}}>
+
+                                        </div>
+                                    </Col>
+                                </Row>            */}
+                                
+                            </Container>
+                        
                         </Col>
                     </Row>
                 </Container>

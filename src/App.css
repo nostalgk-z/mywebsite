@@ -8,6 +8,7 @@
   background-repeat: no-repeat;
   background-color: rgb(232, 209, 209); /* rgb(71, 123, 132); */
   background-blend-mode: color-burn;
+  /* overflow: hidden; */
   /* min-height: fit-content; */
   /* display: flex; */
 }

@@ -60,6 +60,7 @@ class About extends Component{
                         <Col style={{ backgroundColor: '#2B2B2B', minHeight: 'fit-content', maxHeight: 'fit-content'}}>
                             <div className="portrait">
                             </div>
+                            
                             <Container  >
                                 <Col>
                                     <Row className="about-cntnr" style={{marginLeft: '0px', marginRight: '0px'}}>
@@ -88,10 +89,9 @@ class About extends Component{
                                             </Button>
                                         </a>
                                     </Row>
-                                    
-                                    
                                 </Col>
                             </Container>
+                            
                         </Col>
                     </Row>
                 </Container>

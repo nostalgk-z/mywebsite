@@ -60,7 +60,7 @@ class Intro extends Component {
             <div>
                 <Container className="Intro" style={{ maxWidth: '100%', padding: 0 }}>
                     <Row style={{}}>
-                        <Col style={{ padding: '0px' }}>
+                        <Col style={{ padding: '0px', overflow: 'hidden' }}>
 
                             <div className="header"> ZANE PARTAIN </div>
                             <hr style={{ width: '35%' }}></hr>
