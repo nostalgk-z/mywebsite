@@ -108,7 +108,15 @@
     height: 200px; 
     width: 80%;
     background-color: green;
-    margin-bottom: 28px;
+    margin-bottom: 30px;
+}
+.proj-thumbnail--end{
+    display: block;
+    margin:auto;
+    height: 200px; 
+    width: 80%;
+    background-color: green;
+    margin-bottom: 55px;
 }
 div.project-row{
     margin: auto;   
@@ -117,11 +125,14 @@ div.project-row{
     .proj-thumbnail{
         width: 200px;
     }
+    .proj-thumbnail--end{
+        width: 200px;
+    }
 }
 @media screen and (max-width: 768px){
     
     div.project-row{
-        margin-left: 20px;   
+        margin-left: 24px;   
     }
 }
 @media screen and (max-width: 575px){
@@ -129,12 +140,10 @@ div.project-row{
         margin-left: 0px;   
     }
     .proj-thumbnail{
-        display: block;
-        margin:auto;
-        height: 200px; 
         width: 75%;
-        background-color: green;
-        margin-bottom: 28px;
+    }
+    .proj-thumbnail--end{
+        width: 75%;
     }
 }
 

@@ -84,6 +84,16 @@ class Projects extends Component{
 
                                         </div>
                                     </Col>
+                                    <Col sm='4' style={{maxWidth:'100%'}}>
+                                        <div className="proj-thumbnail">
+
+                                        </div>
+                                    </Col>
+                                    <Col sm='4' style={{maxWidth:'100%'}}>
+                                        <div className="proj-thumbnail--end">
+
+                                        </div>
+                                    </Col>
                                 </Row>  
 
                                 {/* <Row>
