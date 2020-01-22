@@ -66,8 +66,8 @@ class Projects extends Component{
                                 <Row className="project-row">
                                     
                                     <Col sm='4' style={{maxWidth:'100%'}}>
-                                        <div className="proj-thumbnail WW">
-                                            <div className="mask"></div>
+                                        <div className="proj-thumbnail STP">
+
                                         </div>
                                     </Col>
                                     <Col sm='4' style={{maxWidth:'100%'}}>
@@ -81,8 +81,8 @@ class Projects extends Component{
                                         </div>
                                     </Col>
                                     <Col sm='4' style={{maxWidth:'100%'}}>
-                                        <div className="proj-thumbnail">
-
+                                        <div className="proj-thumbnail WW">
+                                            <div className="mask"></div>
                                         </div>
                                     </Col>
                                     <Col sm='4' style={{maxWidth:'100%'}}>

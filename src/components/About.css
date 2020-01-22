@@ -138,6 +138,11 @@ div.project-row{
     background-size: cover;
     background-position: center;
 }
+.proj-thumbnail.STP{
+    background-image: url(../stp.png);
+    background-size: cover;
+    background-position: center;
+}
 /* .mask{
     height: inherit;
     width: 100%;
