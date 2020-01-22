@@ -32,6 +32,7 @@ const parallaxData = [
     },
 ];
  
+
 class Projects extends Component{
     constructor(props){
         super(props);
@@ -65,17 +66,17 @@ class Projects extends Component{
                                 <Row className="project-row">
                                     
                                     <Col sm='4' style={{maxWidth:'100%'}}>
-                                        <div className="proj-thumbnail">
+                                        <div className="proj-thumbnail WW">
+                                            <div className="mask"></div>
+                                        </div>
+                                    </Col>
+                                    <Col sm='4' style={{maxWidth:'100%'}}>
+                                        <div className="proj-thumbnail SS">
 
                                         </div>
                                     </Col>
                                     <Col sm='4' style={{maxWidth:'100%'}}>
-                                        <div className="proj-thumbnail">
-
-                                        </div>
-                                    </Col>
-                                    <Col sm='4' style={{maxWidth:'100%'}}>
-                                        <div className="proj-thumbnail">
+                                        <div className="proj-thumbnail Smile">
 
                                         </div>
                                     </Col>

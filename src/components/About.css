@@ -123,6 +123,31 @@
 div.project-row{
     margin: auto;   
 }
+.proj-thumbnail.WW{
+    background-image: url(../WW2.webp);
+    background-size: cover;
+    background-position: center;
+}
+.proj-thumbnail.SS{
+    background-image: url(../my_spreadsheet.png);
+    background-size: cover;
+    background-position: left;
+}
+.proj-thumbnail.Smile{
+    background-image: url(../smile.png);
+    background-size: cover;
+    background-position: center;
+}
+/* .mask{
+    height: inherit;
+    width: 100%;
+    background-color: rgb(203, 170, 156);
+    border: 5px solid black;
+    opacity: 0.3;
+}
+.mask:hover{
+    opacity: 0;
+} */
 @media screen and (max-width: 991px){
     .proj-thumbnail{
         width: 200px;
