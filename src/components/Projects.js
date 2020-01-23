@@ -64,6 +64,10 @@ class Projects extends Component{
                                
                                 {/** left-side column */}
                                 <Row className="project-row">
+                                    <Col sm='4' style={{maxWidth:'100%'}}>
+                                        <div className="proj-thumbnail Site">
+                                        </div>
+                                    </Col>
                                     
                                     <Col sm='4' style={{maxWidth:'100%'}}>
                                         <a href="https://safetoplay.herokuapp.com/">
@@ -71,6 +75,15 @@ class Projects extends Component{
                                             </div>
                                         </a>
                                     </Col>
+
+
+                                    <Col sm='4' style={{maxWidth:'100%'}}>
+                                        <a href="https://partain-warmup.herokuapp.com/">
+                                            <div className="proj-thumbnail Smile">
+                                            </div>
+                                        </a>
+                                    </Col>
+
 
                                     <Col sm='4' style={{maxWidth:'100%'}}>
                                         <a href="https://github.com/ZanePartain/SpreadSheet/tree/master/Spreadsheet_Zane_Partain">
@@ -80,28 +93,17 @@ class Projects extends Component{
                                     </Col>
 
                                     <Col sm='4' style={{maxWidth:'100%'}}>
-                                        <a href="https://partain-warmup.herokuapp.com/">
-                                            <div className="proj-thumbnail Smile">
+                                        <a href="https://github.com/ZanePartain/EXT2-System">
+                                            <div className="proj-thumbnail EXT2">
                                             </div>
                                         </a>
                                     </Col>
 
                                     <Col sm='4' style={{maxWidth:'100%'}}>
                                         <a href="https://github.com/ZanePartain/WumpusWorld_AI/blob/master/PyAgent.py">
-                                            <div className="proj-thumbnail WW">
-                                                <div className="mask"></div>
+                                            <div className="proj-thumbnail--end WW">
                                             </div>
                                         </a>
-                                    </Col>
-                                    <Col sm='4' style={{maxWidth:'100%'}}>
-                                        <div className="proj-thumbnail">
-
-                                        </div>
-                                    </Col>
-                                    <Col sm='4' style={{maxWidth:'100%'}}>
-                                        <div className="proj-thumbnail--end">
-
-                                        </div>
                                     </Col>
                                 </Row>  
 

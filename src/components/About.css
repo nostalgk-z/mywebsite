@@ -123,15 +123,19 @@
 div.project-row{
     margin: auto;   
 }
-.proj-thumbnail.WW{
+.proj-thumbnail--end.WW{
     background-image: url(../WW2.webp);
     background-size: cover;
     background-position: center;
+    background-color: whitesmoke;
+    background-blend-mode: darken;
 }
 .proj-thumbnail.SS{
     background-image: url(../my_spreadsheet.png);
     background-size: cover;
     background-position: left;
+    background-color: whitesmoke;
+    /* background-blend-mode: darken; */
 }
 .proj-thumbnail.Smile{
     background-image: url(../smile.png);
@@ -140,6 +144,19 @@ div.project-row{
 }
 .proj-thumbnail.STP{
     background-image: url(../stp.png);
+    background-size: cover;
+    background-position: center;
+}
+.proj-thumbnail.EXT2{
+    background-image: url(../tux.png);
+    background-size: contain;
+    background-position: center;
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+.proj-thumbnail.Site{
+    background-image: url(../site.png);
     background-size: cover;
     background-position: center;
 }
