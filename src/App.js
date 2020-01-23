@@ -107,7 +107,7 @@ class App extends Component {
                 <Projects />
               </Element>
 
-              <div style={{width: '100%', height: '100px', backgroundColor:'transparent'}}>
+              <div className="endbar">
                 {/** Up Icon to smooth scroll to About section */}
                 <div className="up-icon" onClick={this.scrollToTop.bind(this)}>
                 </div>
