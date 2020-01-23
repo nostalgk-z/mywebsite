@@ -95,8 +95,9 @@
 
 .project-col{
     overflow: hidden;
-    background-color: #B35B67; 
+    background-color: #2B2B2B; 
     /* border: 1px solid transparent; */
+    color: whitesmoke;
     /* min-height: 55vh; */
     margin-top: -1px;
     max-height:fit-content; 
@@ -118,11 +119,27 @@
     height: 200px; 
     width: 80%;
     background-color: green;
-    margin-bottom: 55px;
+    margin-bottom: 70px;
 }
 div.project-row{
     margin: auto;   
 }
+
+.mask{
+    height: 200px;
+    font-weight: 700;
+    width: 100%;
+    background-color: #B35B67; ;
+    opacity: 0.0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 70px;
+}
+.mask:hover{
+    opacity: 0.9;
+}
+
 .proj-thumbnail--end.WW{
     background-image: url(../WW2.webp);
     background-size: cover;

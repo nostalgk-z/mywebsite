@@ -58,70 +58,74 @@ class Projects extends Component{
                         <Col className="project-col">
                             
                             <Container style={{ margin: 'auto'}}>
-                                <div className="header-text">
-                                    Projects
+                                <div  style={{marginBottom: '30px', fontSize: '20px', marginTop: '5px', fontWeight: 500}}>
+                                    SOME OF MY PROJECTS
                                 </div>
                                
                                 {/** left-side column */}
                                 <Row className="project-row">
                                     <Col sm='4' style={{maxWidth:'100%'}}>
-                                        <div className="proj-thumbnail Site">
-                                        </div>
+                                        <a href="https://zanepartain.herokuapp.com/" style={{textDecoration: 'none'}}>
+                                            <div className="proj-thumbnail Site">
+                                                <div className="mask">
+                                                    My Personal Website
+                                                </div>
+                                            </div>
+                                        </a>
                                     </Col>
                                     
                                     <Col sm='4' style={{maxWidth:'100%'}}>
-                                        <a href="https://safetoplay.herokuapp.com/">
+                                        <a href="https://safetoplay.herokuapp.com/" style={{textDecoration: 'none'}}>
                                             <div className="proj-thumbnail STP">
+                                                <div className="mask">
+                                                    Safe To Play Web App
+                                                </div>
                                             </div>
                                         </a>
                                     </Col>
 
 
                                     <Col sm='4' style={{maxWidth:'100%'}}>
-                                        <a href="https://partain-warmup.herokuapp.com/">
+                                        <a href="https://partain-warmup.herokuapp.com/" style={{textDecoration: 'none'}}>
                                             <div className="proj-thumbnail Smile">
+                                                <div className="mask">
+                                                    Smile Web App
+                                                </div>
                                             </div>
                                         </a>
                                     </Col>
 
 
                                     <Col sm='4' style={{maxWidth:'100%'}}>
-                                        <a href="https://github.com/ZanePartain/SpreadSheet/tree/master/Spreadsheet_Zane_Partain">
+                                        <a href="https://github.com/ZanePartain/SpreadSheet/tree/master/Spreadsheet_Zane_Partain" style={{textDecoration: 'none'}}>
                                             <div className="proj-thumbnail SS">
+                                                <div className="mask">
+                                                    Spreahsheet WPF Application
+                                                </div>
                                             </div>
                                         </a>
                                     </Col>
 
                                     <Col sm='4' style={{maxWidth:'100%'}}>
-                                        <a href="https://github.com/ZanePartain/EXT2-System">
+                                        <a href="https://github.com/ZanePartain/EXT2-System" style={{textDecoration: 'none'}}>
                                             <div className="proj-thumbnail EXT2">
+                                                <div className="mask">
+                                                    Linux EXT2 File System
+                                                </div>
                                             </div>
                                         </a>
                                     </Col>
 
                                     <Col sm='4' style={{maxWidth:'100%'}}>
-                                        <a href="https://github.com/ZanePartain/WumpusWorld_AI/blob/master/PyAgent.py">
+                                        <a href="https://github.com/ZanePartain/WumpusWorld_AI/blob/master/PyAgent.py" style={{textDecoration: 'none'}}>
                                             <div className="proj-thumbnail--end WW">
+                                                <div className="mask">
+                                                   Probabilistic AI in Wumpus World
+                                                </div>
                                             </div>
                                         </a>
                                     </Col>
                                 </Row>  
-
-                                {/* <Row>
-                                    <Col sm='8'>
-                                        <div className="resume-body" style={{backgroundColor: 'blue'}}>
-                                            <div style={{height: '200px', width: '100%'}}>
-
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col sm='4' style={{maxWidth:'100%'}}>
-                                        <div style={{ display:'block',margin:'auto', height: '200px', width: '200px', backgroundColor: 'orange'}}>
-
-                                        </div>
-                                    </Col>
-                                </Row>            */}
-                                
                             </Container>
                         
                         </Col>
