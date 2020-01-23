@@ -97,7 +97,8 @@
     overflow: hidden;
     background-color: #2B2B2B; 
     /* border: 1px solid transparent; */
-    color: whitesmoke;
+    color: rgb(203, 203, 203);
+    font-weight: 600;
     /* min-height: 55vh; */
     margin-top: -1px;
     max-height:fit-content; 
@@ -109,7 +110,7 @@
     margin:auto;
     height: 200px; 
     width: 80%;
-    background-color: green;
+    background-color: transparent;
     margin-bottom: 30px;
 }
 .proj-thumbnail--end{

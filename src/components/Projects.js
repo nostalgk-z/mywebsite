@@ -58,7 +58,7 @@ class Projects extends Component{
                         <Col className="project-col">
                             
                             <Container style={{ margin: 'auto'}}>
-                                <div  style={{marginBottom: '30px', fontSize: '20px', marginTop: '5px', fontWeight: 500}}>
+                                <div  style={{marginBottom: '30px', fontSize: '20px', marginTop: '5px'}}>
                                     SOME OF MY PROJECTS
                                 </div>
                                
