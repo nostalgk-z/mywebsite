@@ -41,7 +41,7 @@ div.footer{
 
 @media only screen and (max-width: 415px){
     div.header{
-        margin-top: 22vh;
+        margin-top: 25vh;
         font-size: 5vh;
     }
     div.footer{
@@ -56,4 +56,10 @@ div.footer{
         margin-top: 19vh;
     }
 
+}
+
+@media only screen and (max-height: 375px){
+    div.header{
+        margin-top: 10vh;
+    }
 }
